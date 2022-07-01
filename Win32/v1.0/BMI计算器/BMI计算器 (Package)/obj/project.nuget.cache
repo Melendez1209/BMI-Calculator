@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "5gD86GnQU2dwRnEuIWoXYtPyqVh5TcXF/WHiSFh20nTljxWUIbFHIblUJsnbLE5egaRRjOjMvslgK7XIe6G8Nw==",
+  "success": true,
+  "projectFilePath": "D:\\Codes\\BMI\\Win32\\v1.0\\BMI计算器\\BMI计算器 (Package)\\BMI计算器 (Package).wapproj",
+  "expectedPackageFiles": [
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages\\microsoft.windows.sdk.buildtools\\10.0.22000.194\\microsoft.windows.sdk.buildtools.10.0.22000.194.nupkg.sha512",
+    "C:\\Users\\Melendez\\.nuget\\packages\\microsoft.windowsappsdk\\1.0.3\\microsoft.windowsappsdk.1.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
