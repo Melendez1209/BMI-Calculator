@@ -1,0 +1,118 @@
+[
+    {
+        "merged": "D:\\Codes\\Android\\BMI\\v.1.1\\app\\build\\intermediates\\merged_res\\release\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "D:\\Codes\\Android\\BMI\\v.1.1\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "D:\\Codes\\Android\\BMI\\v.1.1\\app\\build\\intermediates\\merged_res\\release\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "D:\\Codes\\Android\\BMI\\v.1.1\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\Codes\\Android\\BMI\\v.1.1\\app\\build\\intermediates\\merged_res\\release\\drawable-v24_ic_baseline_bug_report_24.xml.flat",
+        "source": "D:\\Codes\\Android\\BMI\\v.1.1\\app\\src\\main\\res\\drawable-v24\\ic_baseline_bug_report_24.xml"
+    },
+    {
+        "merged": "D:\\Codes\\Android\\BMI\\v.1.1\\app\\build\\intermediates\\merged_res\\release\\drawable-v24_ic_baseline_pen_24.xml.flat",
+        "source": "D:\\Codes\\Android\\BMI\\v.1.1\\app\\src\\main\\res\\drawable-v24\\ic_baseline_pen_24.xml"
+    },
+    {
+        "merged": "D:\\Codes\\Android\\BMI\\v.1.1\\app\\build\\intermediates\\merged_res\\release\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "D:\\Codes\\Android\\BMI\\v.1.1\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "D:\\Codes\\Android\\BMI\\v.1.1\\app\\build\\intermediates\\merged_res\\release\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\Codes\\Android\\BMI\\v.1.1\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\Codes\\Android\\BMI\\v.1.1\\app\\build\\intermediates\\merged_res\\release\\drawable-v24_ic_baseline_assignment_ind_24.xml.flat",
+        "source": "D:\\Codes\\Android\\BMI\\v.1.1\\app\\src\\main\\res\\drawable-v24\\ic_baseline_assignment_ind_24.xml"
+    },
+    {
+        "merged": "D:\\Codes\\Android\\BMI\\v.1.1\\app\\build\\intermediates\\merged_res\\release\\drawable-v24_ic_baseline_nights_stay_24.xml.flat",
+        "source": "D:\\Codes\\Android\\BMI\\v.1.1\\app\\src\\main\\res\\drawable-v24\\ic_baseline_nights_stay_24.xml"
+    },
+    {
+        "merged": "D:\\Codes\\Android\\BMI\\v.1.1\\app\\build\\intermediates\\merged_res\\release\\drawable-v24_ic_baseline_us_24.xml.flat",
+        "source": "D:\\Codes\\Android\\BMI\\v.1.1\\app\\src\\main\\res\\drawable-v24\\ic_baseline_us_24.xml"
+    },
+    {
+        "merged": "D:\\Codes\\Android\\BMI\\v.1.1\\app\\build\\intermediates\\merged_res\\release\\layout_settings_activity.xml.flat",
+        "source": "D:\\Codes\\Android\\BMI\\v.1.1\\app\\src\\main\\res\\layout\\settings_activity.xml"
+    },
+    {
+        "merged": "D:\\Codes\\Android\\BMI\\v.1.1\\app\\build\\intermediates\\merged_res\\release\\layout_activity_main.xml.flat",
+        "source": "D:\\Codes\\Android\\BMI\\v.1.1\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\Codes\\Android\\BMI\\v.1.1\\app\\build\\intermediates\\merged_res\\release\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "D:\\Codes\\Android\\BMI\\v.1.1\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Codes\\Android\\BMI\\v.1.1\\app\\build\\intermediates\\merged_res\\release\\drawable-v24_ic_baseline_system_update_alt_24.xml.flat",
+        "source": "D:\\Codes\\Android\\BMI\\v.1.1\\app\\src\\main\\res\\drawable-v24\\ic_baseline_system_update_alt_24.xml"
+    },
+    {
+        "merged": "D:\\Codes\\Android\\BMI\\v.1.1\\app\\build\\intermediates\\merged_res\\release\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "D:\\Codes\\Android\\BMI\\v.1.1\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Codes\\Android\\BMI\\v.1.1\\app\\build\\intermediates\\merged_res\\release\\xml_me_preferences.xml.flat",
+        "source": "D:\\Codes\\Android\\BMI\\v.1.1\\app\\src\\main\\res\\xml\\me_preferences.xml"
+    },
+    {
+        "merged": "D:\\Codes\\Android\\BMI\\v.1.1\\app\\build\\intermediates\\merged_res\\release\\drawable-v24_ic_baseline_web_asset_24.xml.flat",
+        "source": "D:\\Codes\\Android\\BMI\\v.1.1\\app\\src\\main\\res\\drawable-v24\\ic_baseline_web_asset_24.xml"
+    },
+    {
+        "merged": "D:\\Codes\\Android\\BMI\\v.1.1\\app\\build\\intermediates\\merged_res\\release\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "D:\\Codes\\Android\\BMI\\v.1.1\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Codes\\Android\\BMI\\v.1.1\\app\\build\\intermediates\\merged_res\\release\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "D:\\Codes\\Android\\BMI\\v.1.1\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Codes\\Android\\BMI\\v.1.1\\app\\build\\intermediates\\merged_res\\release\\drawable-v24_ic_baseline_emoji_people_24.xml.flat",
+        "source": "D:\\Codes\\Android\\BMI\\v.1.1\\app\\src\\main\\res\\drawable-v24\\ic_baseline_emoji_people_24.xml"
+    },
+    {
+        "merged": "D:\\Codes\\Android\\BMI\\v.1.1\\app\\build\\intermediates\\merged_res\\release\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "D:\\Codes\\Android\\BMI\\v.1.1\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\Codes\\Android\\BMI\\v.1.1\\app\\build\\intermediates\\merged_res\\release\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "D:\\Codes\\Android\\BMI\\v.1.1\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "D:\\Codes\\Android\\BMI\\v.1.1\\app\\build\\intermediates\\merged_res\\release\\xml_sync_preferences.xml.flat",
+        "source": "D:\\Codes\\Android\\BMI\\v.1.1\\app\\src\\main\\res\\xml\\sync_preferences.xml"
+    },
+    {
+        "merged": "D:\\Codes\\Android\\BMI\\v.1.1\\app\\build\\intermediates\\merged_res\\release\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\Codes\\Android\\BMI\\v.1.1\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\Codes\\Android\\BMI\\v.1.1\\app\\build\\intermediates\\merged_res\\release\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\Codes\\Android\\BMI\\v.1.1\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\Codes\\Android\\BMI\\v.1.1\\app\\build\\intermediates\\merged_res\\release\\drawable-v24_ic_baseline_text_center_24.xml.flat",
+        "source": "D:\\Codes\\Android\\BMI\\v.1.1\\app\\src\\main\\res\\drawable-v24\\ic_baseline_text_center_24.xml"
+    },
+    {
+        "merged": "D:\\Codes\\Android\\BMI\\v.1.1\\app\\build\\intermediates\\merged_res\\release\\drawable-v24_ic_baseline_settings_24.xml.flat",
+        "source": "D:\\Codes\\Android\\BMI\\v.1.1\\app\\src\\main\\res\\drawable-v24\\ic_baseline_settings_24.xml"
+    },
+    {
+        "merged": "D:\\Codes\\Android\\BMI\\v.1.1\\app\\build\\intermediates\\merged_res\\release\\xml_header_preferences.xml.flat",
+        "source": "D:\\Codes\\Android\\BMI\\v.1.1\\app\\src\\main\\res\\xml\\header_preferences.xml"
+    },
+    {
+        "merged": "D:\\Codes\\Android\\BMI\\v.1.1\\app\\build\\intermediates\\merged_res\\release\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "D:\\Codes\\Android\\BMI\\v.1.1\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Codes\\Android\\BMI\\v.1.1\\app\\build\\intermediates\\merged_res\\release\\drawable-v24_ic_baseline_enter_24.xml.flat",
+        "source": "D:\\Codes\\Android\\BMI\\v.1.1\\app\\src\\main\\res\\drawable-v24\\ic_baseline_enter_24.xml"
+    }
+]

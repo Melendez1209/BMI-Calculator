@@ -1,0 +1,17 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+    <Preference
+        app:icon="@drawable/ic_baseline_system_update_alt_24"
+        app:key="update"
+        app:summary="@string/update"
+        app:title="@string/update_title" />
+    <Preference
+        app:icon="@drawable/ic_baseline_bug_report_24"
+        app:key="bug"
+        app:summary="@string/feed_BUG"
+        app:title="@string/Bug_feedback" />
+    <Preference
+        app:icon="@drawable/ic_baseline_pen_24"
+        app:key="feedback"
+        app:summary="@string/go_feedback"
+        app:title="@string/Feedback" />
+</PreferenceScreen>

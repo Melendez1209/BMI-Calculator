@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:enabled="true"
+        android:icon="@mipmap/ic_launcher_round"
+        android:shortcutId="main"
+        android:shortcutLongLabel="@string/go_calculate"
+        android:shortcutShortLabel="@string/calculate">
+        <intent
+            android:action="com.melendez.bmi.ADD_WEBSITE"
+            android:targetClass="com.melendez.bmi.MainActivity"
+            android:targetPackage="com.melendez.bmi" />
+    </shortcut>
+    <shortcut
+        android:enabled="true"
+        nightMode="true"
+        android:icon="@drawable/ic_settings_dark_24"
+        android:shortcutId="settings"
+        android:shortcutLongLabel="@string/go_settings"
+        android:shortcutShortLabel="@string/title_activity_settings">
+        <intent
+            android:action="com.melendez.bmi.ADD_WEBSITE"
+            android:targetClass="com.melendez.bmi.SettingsActivity"
+            android:targetPackage="com.melendez.bmi" />
+    </shortcut>
+</shortcuts>

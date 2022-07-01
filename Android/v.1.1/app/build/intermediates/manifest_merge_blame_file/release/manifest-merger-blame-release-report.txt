@@ -1,0 +1,65 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.melendez.bmi"
+4    android:versionCode="2"
+5    android:versionName="1.1" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="29"
+8-->D:\Codes\Android\BMI\v.1.1\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->D:\Codes\Android\BMI\v.1.1\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->D:\Codes\Android\BMI\v.1.1\app\src\main\AndroidManifest.xml:5:5-31:19
+12        android:allowBackup="true"
+12-->D:\Codes\Android\BMI\v.1.1\app\src\main\AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.5.0] C:\Users\BEYONDCHG\caches\transforms-3\b1fe9740f6c86f0b7649a763c3bf2b85\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
+14        android:extractNativeLibs="false"
+15        android:icon="@mipmap/ic_launcher"
+15-->D:\Codes\Android\BMI\v.1.1\app\src\main\AndroidManifest.xml:7:9-43
+16        android:label="@string/app_name"
+16-->D:\Codes\Android\BMI\v.1.1\app\src\main\AndroidManifest.xml:8:9-41
+17        android:roundIcon="@mipmap/ic_launcher_round"
+17-->D:\Codes\Android\BMI\v.1.1\app\src\main\AndroidManifest.xml:9:9-54
+18        android:supportsRtl="true"
+18-->D:\Codes\Android\BMI\v.1.1\app\src\main\AndroidManifest.xml:10:9-35
+19        android:theme="@style/Theme.BMI计算器" >
+19-->D:\Codes\Android\BMI\v.1.1\app\src\main\AndroidManifest.xml:11:9-44
+20
+21        <!-- MainActivity -->
+22        <activity
+22-->D:\Codes\Android\BMI\v.1.1\app\src\main\AndroidManifest.xml:13:9-21:20
+23            android:name="com.melendez.bmi.MainActivity"
+23-->D:\Codes\Android\BMI\v.1.1\app\src\main\AndroidManifest.xml:14:13-41
+24            android:exported="true" >
+24-->D:\Codes\Android\BMI\v.1.1\app\src\main\AndroidManifest.xml:15:13-36
+25            <intent-filter>
+25-->D:\Codes\Android\BMI\v.1.1\app\src\main\AndroidManifest.xml:16:13-20:29
+26                <action android:name="android.intent.action.MAIN" />
+26-->D:\Codes\Android\BMI\v.1.1\app\src\main\AndroidManifest.xml:17:17-69
+26-->D:\Codes\Android\BMI\v.1.1\app\src\main\AndroidManifest.xml:17:25-66
+27
+28                <category android:name="android.intent.category.LAUNCHER" />
+28-->D:\Codes\Android\BMI\v.1.1\app\src\main\AndroidManifest.xml:19:17-77
+28-->D:\Codes\Android\BMI\v.1.1\app\src\main\AndroidManifest.xml:19:27-74
+29            </intent-filter>
+30        </activity>
+31        <!-- Settingactivity -->
+32        <activity
+32-->D:\Codes\Android\BMI\v.1.1\app\src\main\AndroidManifest.xml:23:9-29:20
+33            android:name="com.melendez.bmi.SettingsActivity"
+33-->D:\Codes\Android\BMI\v.1.1\app\src\main\AndroidManifest.xml:24:13-45
+34            android:exported="true" >
+34-->D:\Codes\Android\BMI\v.1.1\app\src\main\AndroidManifest.xml:25:13-36
+35            <intent-filter>
+35-->D:\Codes\Android\BMI\v.1.1\app\src\main\AndroidManifest.xml:26:13-28:29
+36                <category android:name="android.intent.category.LAUNCHER" />
+36-->D:\Codes\Android\BMI\v.1.1\app\src\main\AndroidManifest.xml:19:17-77
+36-->D:\Codes\Android\BMI\v.1.1\app\src\main\AndroidManifest.xml:19:27-74
+37            </intent-filter>
+38        </activity>
+39    </application>
+40
+41</manifest>

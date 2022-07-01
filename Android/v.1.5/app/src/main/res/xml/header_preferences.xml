@@ -1,0 +1,20 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <Preference
+        app:fragment="com.melendez.bmi.SettingsActivity$MeFragment"
+        app:icon="@drawable/ic_baseline_assignment_ind_24"
+        app:key="messages_header"
+        app:title="@string/me" />
+
+    <Preference
+        app:fragment="com.melendez.bmi.SettingsActivity$PreferenceFragment"
+        app:icon="@drawable/ic_baseline_room_preferences_24"
+        app:key="preference_header"
+        app:title="@string/preference" />
+
+    <Preference
+        app:fragment="com.melendez.bmi.SettingsActivity$AboutFragment"
+        app:icon="@drawable/ic_baseline_us_24"
+        app:key="sync_header"
+        app:title="@string/about" />
+</PreferenceScreen>

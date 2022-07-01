@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Codes/Android/BMI/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Codes/Android/BMI/v.1.1/app/src/main/res/drawable-v24/ic_baseline_widgets_24.xml" value="0.166" />
+        <entry key="..\:/Codes/Android/BMI/v.1.1/app/src/main/res/drawable-v24/ic_launcher_background.xml" value="0.166" />
+        <entry key="..\:/Codes/Android/BMI/v.1.1/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.166" />
+        <entry key="..\:/Codes/Android/BMI/v.1.1/app/src/main/res/drawable/ic_launcher_background.xml" value="0.166" />
+        <entry key="..\:/Codes/Android/BMI/v.1.1/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.2065" />
+        <entry key="..\:/Codes/Android/BMI/v.1.1/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Codes/Android/BMI/v.1.1/app/src/main/res/layout/settings_activity.xml" value="0.19895833333333332" />
+        <entry key="..\:/Codes/Android/BMI/v.1.1/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1725" />
+        <entry key="..\:/Codes/Android/BMI/v.1.1/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1725" />
+        <entry key="..\:/Codes/Android/BMI/v.1.1/app/src/main/res/xml/header_preferences.xml" value="0.25" />
+        <entry key="..\:/Codes/Android/BMI/v.1.1/app/src/main/res/xml/me_preferences.xml" value="0.12905405405405404" />
+        <entry key="..\:/Codes/Android/BMI/v.1.1/app/src/main/res/xml/messages_preferences.xml" value="0.1346328195829556" />
+        <entry key="..\:/Codes/Android/BMI/v.1.1/app/src/main/res/xml/sync_preferences.xml" value="0.12905405405405404" />
+        <entry key="..\:/Codes/Android/BMI/v.1.2/app/src/main/res/layout-land/activity_main.xml" value="0.22" />
+        <entry key="..\:/Codes/Android/BMI/v.1.2/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Codes/Android/BMI/v.1.2/app/src/main/res/layout/my_bmi.xml" value="0.12905405405405404" />
+        <entry key="..\:/Codes/Android/BMI/v.1.2/app/src/main/res/layout/settings_activity.xml" value="0.1633176571184267" />
+        <entry key="..\:/Codes/Android/BMI/v.1.2/app/src/main/res/xml/header_preferences.xml" value="0.1633176571184267" />
+        <entry key="..\:/Codes/Android/BMI/v.1.2/app/src/main/res/xml/my_bmi_preferencescreen.xml" value="0.1633176571184267" />
+        <entry key="..\:/Codes/Android/BMI/v.1.3/app/src/main/res/drawable-v24/ic_baseline_emoji_people_24.xml" value="0.218" />
+        <entry key="..\:/Codes/Android/BMI/v.1.3/app/src/main/res/drawable-v24/ic_baseline_settings_24.xml" value="0.218" />
+        <entry key="..\:/Codes/Android/BMI/v.1.3/app/src/main/res/drawable/button.xml" value="0.182" />
+        <entry key="..\:/Codes/Android/BMI/v.1.3/app/src/main/res/drawable/editext.xml" value="0.1805" />
+        <entry key="..\:/Codes/Android/BMI/v.1.3/app/src/main/res/layout-land-night/activity_main.xml" value="0.22" />
+        <entry key="..\:/Codes/Android/BMI/v.1.3/app/src/main/res/layout-land/activity_main.xml" value="0.1355421686746988" />
+        <entry key="..\:/Codes/Android/BMI/v.1.3/app/src/main/res/layout-night/activity_main.xml" value="0.25" />
+        <entry key="..\:/Codes/Android/BMI/v.1.3/app/src/main/res/layout/activity_main.xml" value="0.13682432432432431" />
+        <entry key="..\:/Codes/Android/BMI/v.1.3/app/src/main/res/layout/settings_activity.xml" value="0.13682432432432431" />
+        <entry key="..\:/Codes/Android/BMI/v.1.3/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.183" />
+        <entry key="..\:/Codes/Android/BMI/v.1.3/app/src/main/res/xml/header_preferences.xml" value="0.25" />
+        <entry key="..\:/Codes/Android/BMI/v.1.3/app/src/main/res/xml/me_preferences.xml" value="0.13682432432432431" />
+        <entry key="..\:/Codes/Android/BMI/v.1.3/app/src/main/res/xml/shortcut.xml" value="0.12905405405405404" />
+        <entry key="..\:/Codes/Android/BMI/v.1.3/app/src/main/res/xml/shortcuts.xml" value="0.13682432432432431" />
+        <entry key="..\:/Codes/Android/BMI/v.1.4/app/src/main/res/drawable/ic_path_1.xml" value="0.1715" />
+        <entry key="..\:/Codes/Android/BMI/v.1.4/app/src/main/res/drawable/vector.xml" value="0.1715" />
+        <entry key="..\:/Codes/Android/BMI/v.1.4/app/src/main/res/layout-land-night/activity_main.xml" value="0.10641891891891891" />
+        <entry key="..\:/Codes/Android/BMI/v.1.4/app/src/main/res/layout-land/activity_main.xml" value="0.10641891891891891" />
+        <entry key="..\:/Codes/Android/BMI/v.1.4/app/src/main/res/layout-land/activity_more.xml" value="0.16887125220458554" />
+        <entry key="..\:/Codes/Android/BMI/v.1.4/app/src/main/res/layout-land/activity_target.xml" value="0.1355421686746988" />
+        <entry key="..\:/Codes/Android/BMI/v.1.4/app/src/main/res/layout-night/activity_main.xml" value="0.2109375" />
+        <entry key="..\:/Codes/Android/BMI/v.1.4/app/src/main/res/layout-night/activity_more.xml" value="0.5" />
+        <entry key="..\:/Codes/Android/BMI/v.1.4/app/src/main/res/layout-v4/activity_main.xml" value="0.19895833333333332" />
+        <entry key="..\:/Codes/Android/BMI/v.1.4/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Codes/Android/BMI/v.1.4/app/src/main/res/layout/activity_more.xml" value="0.2109375" />
+        <entry key="..\:/Codes/Android/BMI/v.1.4/app/src/main/res/layout/activity_openning.xml" value="0.13682432432432431" />
+        <entry key="..\:/Codes/Android/BMI/v.1.4/app/src/main/res/layout/activity_target.xml" value="0.13682432432432431" />
+        <entry key="..\:/Codes/Android/BMI/v.1.4/app/src/main/res/layout/content_scrolling.xml" value="0.1287568306010929" />
+        <entry key="..\:/Codes/Android/BMI/v.1.4/app/src/main/res/layout/new_.xml" value="0.13682432432432431" />
+        <entry key="..\:/Codes/Android/BMI/v.1.4/app/src/main/res/layout/settings_activity.xml" value="0.13682432432432431" />
+        <entry key="..\:/Codes/Android/BMI/v.1.4/app/src/main/res/xml/about_preferences.xml" value="0.13682432432432431" />
+        <entry key="..\:/Codes/Android/BMI/v.1.4/app/src/main/res/xml/header_preferences.xml" value="0.12" />
+        <entry key="..\:/Codes/Android/BMI/v.1.4/app/src/main/res/xml/me_preferences.xml" value="0.2109375" />
+        <entry key="..\:/Codes/Android/BMI/v.1.4/app/src/main/res/xml/preference_preferences.xml" value="0.13" />
+        <entry key="..\:/Codes/Android/BMI/v.1.4/app/src/main/res/xml/sync_preferences.xml" value="0.2109375" />
+        <entry key="..\:/Codes/Android/BMI2/app/src/main/res/drawable-v24/ic_baseline_assignment_ind_24.xml" value="0.2065" />
+        <entry key="..\:/Codes/Android/BMI2/app/src/main/res/drawable-v24/ic_baseline_bug_report_24.xml" value="0.2065" />
+        <entry key="..\:/Codes/Android/BMI2/app/src/main/res/drawable-v24/ic_baseline_emoji_people_24.xml" value="0.2065" />
+        <entry key="..\:/Codes/Android/BMI2/app/src/main/res/drawable-v24/ic_baseline_enter_24.xml" value="0.2065" />
+        <entry key="..\:/Codes/Android/BMI2/app/src/main/res/drawable-v24/ic_baseline_nights_stay_24.xml" value="0.2065" />
+        <entry key="..\:/Codes/Android/BMI2/app/src/main/res/drawable-v24/ic_baseline_pen_24.xml" value="0.2065" />
+        <entry key="..\:/Codes/Android/BMI2/app/src/main/res/drawable-v24/ic_baseline_settings_24.xml" value="0.2065" />
+        <entry key="..\:/Codes/Android/BMI2/app/src/main/res/drawable-v24/ic_baseline_system_update_alt_24.xml" value="0.2065" />
+        <entry key="..\:/Codes/Android/BMI2/app/src/main/res/drawable-v24/ic_baseline_text_center_24.xml" value="0.2065" />
+        <entry key="..\:/Codes/Android/BMI2/app/src/main/res/drawable-v24/ic_baseline_us_24.xml" value="0.168" />
+        <entry key="..\:/Codes/Android/BMI2/app/src/main/res/layout/activity_main.xml" value="0.1796875" />
+      </map>
+    </option>
+  </component>
+</project>

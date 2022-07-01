@@ -1,0 +1,28 @@
+<resources>
+
+    <string name="app_name">BMI计算器</string>
+
+    <!--Main-->
+    <string name="hight">身高(m)：</string>
+    <string name="weight">体重(KG)：</string>
+    <string name="enter">确定</string>
+    <string name="your_bmi">您的BMI计算结果约为：</string>
+
+    <!-- Settings Titles -->
+    <string name="me">账号</string>
+    <string name="about">关于我们</string>
+
+    <!-- Me Preferences -->
+    <string name="user_name">昵称</string>
+    <string name="signature">个性签名</string>
+
+    <!-- About Preferences -->
+    <string name="update_title">检查更新</string>
+    <string name="update">前往GitHub检查更新</string>
+    <string name="Feedback">意见反馈</string>
+    <string name="Bug_feedback">BUG反馈</string>
+    <string name="go_feedback">前往GitHub开源库对我APP提出建议</string>
+    <string name="feed_BUG">前往GitHub开源库反馈BUG</string>
+
+
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <SwitchPreference
+        android:defaultValue="true"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_nights_stay_24"
+        android:key="auto"
+        android:summaryOff="@string/auto_night_F"
+        android:summaryOn="@string/auto_night_T"
+        android:title="@string/auto_night" />
+
+    <SwitchPreference
+        android:defaultValue="false"
+        android:dependency="auto"
+        android:disableDependentsState="false"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_wb_sunny_24"
+        android:key="night_mode"
+        android:title="@string/night_mode" />
+
+</PreferenceScreen>

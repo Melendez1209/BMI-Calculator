@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/showCard"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:onClick="go_proposal"
+        app:cardCornerRadius="7.5dp"
+        app:cardElevation="10dp"
+        app:cardPreventCornerOverlap="true"
+        app:cardUseCompatPadding="true"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="10dp">
+
+        <TextView
+            android:id="@+id/show"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:ems="4"
+            android:gravity="center"
+            android:text="@string/none"
+            android:textSize="25sp" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/edit_card"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        app:cardCornerRadius="7.5dp"
+        app:cardElevation="10dp"
+        app:cardPreventCornerOverlap="true"
+        app:cardUseCompatPadding="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.35"
+        app:layout_constraintStart_toEndOf="@+id/showCard"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="0dp">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center|top"
+            app:boxBackgroundColor="@color/white">
+
+            <EditText
+                android:id="@+id/hight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/edit_card"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:drawableStart="@drawable/ic_baseline_emoji_people_24"
+                android:drawablePadding="5dp"
+                android:hint="@string/height"
+                android:inputType="numberDecimal"
+                android:maxLines="1"
+                android:minHeight="45dp"
+                android:textColorHint="@color/grey"
+                android:textSize="20sp"
+                tools:ignore="Autofill" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="bottom|center"
+            android:layout_marginBottom="80dp"
+            app:boxBackgroundColor="@color/white">
+
+            <EditText
+                android:id="@+id/weight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:drawableStart="@drawable/ic_baseline_web_asset_24"
+                android:drawablePadding="5dp"
+                android:hint="@string/weight"
+                android:inputType="numberDecimal"
+                android:maxLines="1"
+                android:minWidth="350dp"
+                android:minHeight="45dp"
+                android:textColorHint="@color/grey"
+                android:textSize="20sp"
+                tools:ignore="Autofill" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|bottom"
+            android:src="@mipmap/ic_launcher_round"
+            android:transitionName="CONTENT"
+            tools:ignore="ContentDescription" />
+
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/settings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:drawableLeft="@drawable/ic_settings_light_24"
+        android:onClick="Settings"
+        android:text="@string/title_activity_settings"
+        app:layout_constraintBottom_toTopOf="@+id/more_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/edit_card"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="RtlHardcoded" />
+
+    <Button
+        android:id="@+id/enter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:drawableLeft="@drawable/ic_baseline_enter_24"
+        android:onClick="get_calculation"
+        android:text="@string/enter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/edit_card"
+        app:layout_constraintTop_toBottomOf="@+id/more_button"
+        tools:ignore="RtlHardcoded" />
+
+    <Button
+        android:id="@+id/more_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:onClick="go_more"
+        android:text="@string/about_bmi"
+        app:layout_constraintBottom_toTopOf="@+id/enter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/edit_card"
+        app:layout_constraintTop_toBottomOf="@+id/settings" />
+</androidx.constraintlayout.widget.ConstraintLayout>

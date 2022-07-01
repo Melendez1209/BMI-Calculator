@@ -1,0 +1,4 @@
+#Sat Mar 26 20:21:21 CST 2022
+base.0=D\:\\Codes\\Android\\BMI\\v.1.1\\app\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

@@ -1,0 +1,16 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+    <EditTextPreference
+        app:dialogIcon="@drawable/ic_baseline_text_center_24"
+        app:dialogTitle="@string/user_name"
+        app:icon="@drawable/ic_baseline_text_center_24"
+        app:key="user_name"
+        app:title="@string/user_name"
+        app:useSimpleSummaryProvider="true" />
+    <EditTextPreference
+        app:dialogIcon="@drawable/ic_baseline_pen_24"
+        app:dialogTitle="@string/signature"
+        app:icon="@drawable/ic_baseline_pen_24"
+        app:key="signature"
+        app:title="@string/signature"
+        app:useSimpleSummaryProvider="true" />
+</PreferenceScreen>

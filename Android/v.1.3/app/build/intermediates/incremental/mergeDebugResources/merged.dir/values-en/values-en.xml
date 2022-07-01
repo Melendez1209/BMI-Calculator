@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Bug_feedback">Feed Bug</string>
+    <string name="Feedback">feedback</string>
+    <string name="about">About us</string>
+    <string name="app_name">BMI Calculator</string>
+    <string name="calculate">calculation</string>
+    <string name="enter">OK</string>
+    <string name="feed_BUG">Go to GitHub open source library to feed back bug</string>
+    <string name="go_calculate">Go to calculate</string>
+    <string name="go_feedback">Go to GitHub open source library and give suggestions to my app</string>
+    <string name="go_settings">Go to settings</string>
+    <string name="hight">Height (m):</string>
+    <string name="me">Account</string>
+    <string name="my_body">My Body</string>
+    <string name="night_mode">Night Mode</string>
+    <string name="none">None</string>
+    <string name="signature">Signature</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="update">Go to GitHub to check for updates</string>
+    <string name="update_title">Check for update</string>
+    <string name="user_name">Nickname</string>
+    <string name="weight">Weight(KG)：</string>
+    <string name="your_bmi">Your BMI calculation result is about:</string>
+</resources>
