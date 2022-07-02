@@ -26,11 +26,8 @@ namespace BMI计算器
         public MainWindow()
         {
             this.InitializeComponent();
-        }
-
-        private void myButton_Click(object sender, RoutedEventArgs e)
-        {
-            myButton.Content = "Clicked";
+            Title = "BMI计算器";
+            Main_Frame.Navigate(typeof(MainPage));
         }
     }
 }

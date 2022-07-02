@@ -1,0 +1,37 @@
+D:\Codes\BMI\Win32\v1.0\BMI计算器\BMI计算器\bin\x64\Debug\net6.0-windows10.0.19041.0\App.xbf
+D:\Codes\BMI\Win32\v1.0\BMI计算器\BMI计算器\bin\x64\Debug\net6.0-windows10.0.19041.0\MainPage.xbf
+D:\Codes\BMI\Win32\v1.0\BMI计算器\BMI计算器\bin\x64\Debug\net6.0-windows10.0.19041.0\MainWindow.xbf
+D:\Codes\BMI\Win32\v1.0\BMI计算器\BMI计算器\bin\x64\Debug\net6.0-windows10.0.19041.0\MorePage.xbf
+D:\Codes\BMI\Win32\v1.0\BMI计算器\BMI计算器\bin\x64\Debug\net6.0-windows10.0.19041.0\ResultPage.xbf
+C:\Program Files (x86)\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.22621.0\Redist\Debug\x64\ucrtbased.dll
+D:\Codes\BMI\Win32\v1.0\BMI计算器\BMI计算器 (Package)\Images\SplashScreen.scale-200.png
+D:\Codes\BMI\Win32\v1.0\BMI计算器\BMI计算器 (Package)\Images\LockScreenLogo.scale-200.png
+D:\Codes\BMI\Win32\v1.0\BMI计算器\BMI计算器 (Package)\Images\Square150x150Logo.scale-200.png
+D:\Codes\BMI\Win32\v1.0\BMI计算器\BMI计算器 (Package)\Images\Square44x44Logo.scale-200.png
+D:\Codes\BMI\Win32\v1.0\BMI计算器\BMI计算器 (Package)\Images\Square44x44Logo.targetsize-24_altform-unplated.png
+D:\Codes\BMI\Win32\v1.0\BMI计算器\BMI计算器 (Package)\Images\StoreLogo.png
+D:\Codes\BMI\Win32\v1.0\BMI计算器\BMI计算器 (Package)\Images\Wide310x150Logo.scale-200.png
+D:\Codes\BMI\Win32\v1.0\BMI计算器\BMI计算器 (Package)\bin\x64\Debug\resources.pri
+C:\Users\Melendez\.nuget\packages\microsoft.windowsappsdk\1.0.3\lib\net5.0-windows10.0.18362.0\Microsoft.InteractiveExperiences.Projection.dll
+C:\Users\Melendez\.nuget\packages\microsoft.windowsappsdk\1.0.3\lib\net5.0-windows10.0.18362.0\Microsoft.WinUI.dll
+C:\Users\Melendez\.nuget\packages\microsoft.windowsappsdk\1.0.3\lib\net5.0-windows10.0.18362.0\Microsoft.Windows.AppLifecycle.Projection.dll
+C:\Users\Melendez\.nuget\packages\microsoft.windowsappsdk\1.0.3\lib\net5.0-windows10.0.18362.0\Microsoft.Windows.ApplicationModel.DynamicDependency.Projection.dll
+C:\Users\Melendez\.nuget\packages\microsoft.windowsappsdk\1.0.3\lib\net5.0-windows10.0.18362.0\Microsoft.Windows.ApplicationModel.Resources.Projection.dll
+C:\Users\Melendez\.nuget\packages\microsoft.windowsappsdk\1.0.3\lib\net5.0-windows10.0.18362.0\Microsoft.Windows.ApplicationModel.WindowsAppRuntime.Projection.dll
+C:\Users\Melendez\.nuget\packages\microsoft.windowsappsdk\1.0.3\lib\net5.0-windows10.0.18362.0\Microsoft.Windows.System.Power.Projection.dll
+C:\Users\Melendez\.nuget\packages\microsoft.windowsappsdk\1.0.3\lib\net5.0-windows10.0.18362.0\Microsoft.WindowsAppRuntime.Bootstrap.Net.dll
+C:\Users\Melendez\.nuget\packages\microsoft.windowsappsdk\1.0.3\runtimes\win10-arm64\native\Microsoft.WindowsAppRuntime.Bootstrap.dll
+C:\Users\Melendez\.nuget\packages\microsoft.windowsappsdk\1.0.3\runtimes\win10-x64\native\Microsoft.WindowsAppRuntime.Bootstrap.dll
+C:\Users\Melendez\.nuget\packages\microsoft.windowsappsdk\1.0.3\runtimes\win10-x86\native\Microsoft.WindowsAppRuntime.Bootstrap.dll
+C:\Users\Melendez\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.25\lib\Microsoft.Windows.SDK.NET.dll
+C:\Users\Melendez\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.25\lib\WinRT.Runtime.dll
+D:\Codes\BMI\Win32\v1.0\BMI计算器\BMI计算器\bin\x64\Debug\net6.0-windows10.0.19041.0\BMI计算器.deps.json
+D:\Codes\BMI\Win32\v1.0\BMI计算器\BMI计算器\obj\x64\Debug\net6.0-windows10.0.19041.0\App.xbf
+D:\Codes\BMI\Win32\v1.0\BMI计算器\BMI计算器\obj\x64\Debug\net6.0-windows10.0.19041.0\MainPage.xbf
+D:\Codes\BMI\Win32\v1.0\BMI计算器\BMI计算器\obj\x64\Debug\net6.0-windows10.0.19041.0\MainWindow.xbf
+D:\Codes\BMI\Win32\v1.0\BMI计算器\BMI计算器\obj\x64\Debug\net6.0-windows10.0.19041.0\MorePage.xbf
+D:\Codes\BMI\Win32\v1.0\BMI计算器\BMI计算器\obj\x64\Debug\net6.0-windows10.0.19041.0\ResultPage.xbf
+D:\Codes\BMI\Win32\v1.0\BMI计算器\BMI计算器\obj\x64\Debug\net6.0-windows10.0.19041.0\apphost.exe
+D:\Codes\BMI\Win32\v1.0\BMI计算器\BMI计算器\bin\x64\Debug\net6.0-windows10.0.19041.0\BMI计算器.runtimeconfig.json
+D:\Codes\BMI\Win32\v1.0\BMI计算器\BMI计算器\bin\x64\Debug\net6.0-windows10.0.19041.0\BMI计算器.dll
+D:\Codes\BMI\Win32\v1.0\BMI计算器\BMI计算器\bin\x64\Debug\net6.0-windows10.0.19041.0\BMI计算器.pdb
