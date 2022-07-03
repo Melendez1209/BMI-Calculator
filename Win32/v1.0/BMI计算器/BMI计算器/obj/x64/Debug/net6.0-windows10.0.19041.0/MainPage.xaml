@@ -9,13 +9,13 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <StackPanel Orientation="Vertical" VerticalAlignment="Center" HorizontalAlignment="Center">
-            <TextBox x:ConnectionId='4' x:Name="Height_input" Header="身高："                                Height="60" Width="325" Margin="0,0,0,20" />
-            <TextBox x:ConnectionId='5' x:Name="Weight_input" Header="体重："                                Height="60" Width="325" Margin="0,20,0,0" />
+        <StackPanel x:ConnectionId='2' x:Name="InputStack" Orientation="Vertical" VerticalAlignment="Center" HorizontalAlignment="Center">
+            <TextBox x:ConnectionId='5' x:Name="Height_input" Header="身高："                                Height="60" Width="325" Margin="0,0,0,20" />
+            <TextBox x:ConnectionId='6' x:Name="Weight_input" Header="体重："                                Height="60" Width="325" Margin="0,20,0,0" />
         </StackPanel>
         <StackPanel HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="100" Orientation="Horizontal">
-            <ToggleButton x:ConnectionId='2' Margin="0,0,10,0"                     FontSize="15">确定</ToggleButton>
-            <ToggleButton x:ConnectionId='3' Margin="10"              FontSize="15">更多</ToggleButton>
+            <ToggleButton x:ConnectionId='3' Margin="0,0,10,0"                     FontSize="15">确定</ToggleButton>
+            <ToggleButton x:ConnectionId='4' Margin="10"              FontSize="15">更多</ToggleButton>
         </StackPanel>
     </Grid>
 </Page>

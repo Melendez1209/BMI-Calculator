@@ -56,6 +56,10 @@
     <Content Include="Images\Square44x44Logo.targetsize-24_altform-unplated.png" />
     <Content Include="Images\StoreLogo.png" />
     <Content Include="Images\Wide310x150Logo.scale-200.png" />
+    <Content Include="Square44x44Logo.scale-100.png" />
+    <Content Include="Square44x44Logo.scale-400.png" />
+    <Content Include="Square44x44Logo.targetsize-32.png" />
+    <Content Include="Square44x44Logo.targetsize-32_altform-unplated.png" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\BMI计算器\BMI计算器.csproj">

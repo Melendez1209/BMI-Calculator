@@ -11,6 +11,10 @@ D:\Codes\BMI\Win32\v1.0\BMI计算器\BMI计算器 (Package)\Images\Square44x44Lo
 D:\Codes\BMI\Win32\v1.0\BMI计算器\BMI计算器 (Package)\Images\Square44x44Logo.targetsize-24_altform-unplated.png
 D:\Codes\BMI\Win32\v1.0\BMI计算器\BMI计算器 (Package)\Images\StoreLogo.png
 D:\Codes\BMI\Win32\v1.0\BMI计算器\BMI计算器 (Package)\Images\Wide310x150Logo.scale-200.png
+D:\Codes\BMI\Win32\v1.0\BMI计算器\BMI计算器 (Package)\Square44x44Logo.scale-100.png
+D:\Codes\BMI\Win32\v1.0\BMI计算器\BMI计算器 (Package)\Square44x44Logo.scale-400.png
+D:\Codes\BMI\Win32\v1.0\BMI计算器\BMI计算器 (Package)\Square44x44Logo.targetsize-32.png
+D:\Codes\BMI\Win32\v1.0\BMI计算器\BMI计算器 (Package)\Square44x44Logo.targetsize-32_altform-unplated.png
 D:\Codes\BMI\Win32\v1.0\BMI计算器\BMI计算器 (Package)\bin\x64\Debug\resources.pri
 C:\Users\Melendez\.nuget\packages\microsoft.windowsappsdk\1.0.3\lib\net5.0-windows10.0.18362.0\Microsoft.InteractiveExperiences.Projection.dll
 C:\Users\Melendez\.nuget\packages\microsoft.windowsappsdk\1.0.3\lib\net5.0-windows10.0.18362.0\Microsoft.WinUI.dll

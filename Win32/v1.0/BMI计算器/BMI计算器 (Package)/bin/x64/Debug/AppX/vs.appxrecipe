@@ -30,29 +30,29 @@
     <AppXManifest Include="D:\Codes\BMI\Win32\v1.0\BMI计算器\BMI计算器 %28Package%29\bin\x64\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-07-02T12:38:55.811</Modified>
+      <Modified>2022-07-03T03:27:31.573</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\Codes\BMI\Win32\v1.0\BMI计算器\BMI计算器\bin\x64\Debug\net6.0-windows10.0.19041.0\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2022-07-02T12:37:59.163</Modified>
+      <Modified>2022-07-03T02:49:53.972</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Codes\BMI\Win32\v1.0\BMI计算器\BMI计算器\bin\x64\Debug\net6.0-windows10.0.19041.0\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2022-07-02T12:37:59.163</Modified>
+      <Modified>2022-07-03T02:49:53.972</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Codes\BMI\Win32\v1.0\BMI计算器\BMI计算器\bin\x64\Debug\net6.0-windows10.0.19041.0\MainWindow.xbf">
       <PackagePath>MainWindow.xbf</PackagePath>
-      <Modified>2022-07-02T12:37:59.163</Modified>
+      <Modified>2022-07-03T02:49:53.972</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Codes\BMI\Win32\v1.0\BMI计算器\BMI计算器\bin\x64\Debug\net6.0-windows10.0.19041.0\MorePage.xbf">
       <PackagePath>MorePage.xbf</PackagePath>
-      <Modified>2022-07-02T12:37:59.164</Modified>
+      <Modified>2022-07-03T02:49:53.972</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Codes\BMI\Win32\v1.0\BMI计算器\BMI计算器\bin\x64\Debug\net6.0-windows10.0.19041.0\ResultPage.xbf">
       <PackagePath>ResultPage.xbf</PackagePath>
-      <Modified>2022-07-02T12:37:59.164</Modified>
+      <Modified>2022-07-03T02:49:53.972</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.22621.0\Redist\Debug\x64\ucrtbased.dll">
       <PackagePath>ucrtbased.dll</PackagePath>
@@ -75,7 +75,7 @@
     <AppxPackagedFile Include="D:\Codes\BMI\Win32\v1.0\BMI计算器\BMI计算器 %28Package%29\Images\Square44x44Logo.scale-200.png">
       <PackagePath>Images\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-06-25T09:33:55.871</Modified>
+      <Modified>2022-07-03T03:23:47.554</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Codes\BMI\Win32\v1.0\BMI计算器\BMI计算器 %28Package%29\Images\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Images\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
@@ -92,9 +92,25 @@
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2022-06-25T09:33:55.874</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codes\BMI\Win32\v1.0\BMI计算器\BMI计算器 %28Package%29\Square44x44Logo.scale-100.png">
+      <PackagePath>Square44x44Logo.scale-100.png</PackagePath>
+      <Modified>2022-07-03T02:52:40.857</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codes\BMI\Win32\v1.0\BMI计算器\BMI计算器 %28Package%29\Square44x44Logo.scale-400.png">
+      <PackagePath>Square44x44Logo.scale-400.png</PackagePath>
+      <Modified>2022-07-03T03:27:25.869</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codes\BMI\Win32\v1.0\BMI计算器\BMI计算器 %28Package%29\Square44x44Logo.targetsize-32.png">
+      <PackagePath>Square44x44Logo.targetsize-32.png</PackagePath>
+      <Modified>2022-07-03T02:49:29.040</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codes\BMI\Win32\v1.0\BMI计算器\BMI计算器 %28Package%29\Square44x44Logo.targetsize-32_altform-unplated.png">
+      <PackagePath>Square44x44Logo.targetsize-32_altform-unplated.png</PackagePath>
+      <Modified>2022-07-03T03:04:48.770</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Codes\BMI\Win32\v1.0\BMI计算器\BMI计算器 %28Package%29\bin\x64\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2022-07-02T07:18:25.285</Modified>
+      <Modified>2022-07-03T03:27:31.543</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Melendez\.nuget\packages\microsoft.windowsappsdk\1.0.3\lib\net5.0-windows10.0.18362.0\Microsoft.InteractiveExperiences.Projection.dll">
       <PackagePath>BMI计算器\Microsoft.InteractiveExperiences.Projection.dll</PackagePath>
@@ -154,27 +170,27 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Codes\BMI\Win32\v1.0\BMI计算器\BMI计算器\obj\x64\Debug\net6.0-windows10.0.19041.0\App.xbf">
       <PackagePath>BMI计算器\App.xbf</PackagePath>
-      <Modified>2022-07-02T12:37:59.163</Modified>
+      <Modified>2022-07-03T02:49:53.972</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Codes\BMI\Win32\v1.0\BMI计算器\BMI计算器\obj\x64\Debug\net6.0-windows10.0.19041.0\MainPage.xbf">
       <PackagePath>BMI计算器\MainPage.xbf</PackagePath>
-      <Modified>2022-07-02T12:37:59.163</Modified>
+      <Modified>2022-07-03T02:49:53.972</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Codes\BMI\Win32\v1.0\BMI计算器\BMI计算器\obj\x64\Debug\net6.0-windows10.0.19041.0\MainWindow.xbf">
       <PackagePath>BMI计算器\MainWindow.xbf</PackagePath>
-      <Modified>2022-07-02T12:37:59.163</Modified>
+      <Modified>2022-07-03T02:49:53.972</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Codes\BMI\Win32\v1.0\BMI计算器\BMI计算器\obj\x64\Debug\net6.0-windows10.0.19041.0\MorePage.xbf">
       <PackagePath>BMI计算器\MorePage.xbf</PackagePath>
-      <Modified>2022-07-02T12:37:59.164</Modified>
+      <Modified>2022-07-03T02:49:53.972</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Codes\BMI\Win32\v1.0\BMI计算器\BMI计算器\obj\x64\Debug\net6.0-windows10.0.19041.0\ResultPage.xbf">
       <PackagePath>BMI计算器\ResultPage.xbf</PackagePath>
-      <Modified>2022-07-02T12:37:59.164</Modified>
+      <Modified>2022-07-03T02:49:53.972</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Codes\BMI\Win32\v1.0\BMI计算器\BMI计算器\obj\x64\Debug\net6.0-windows10.0.19041.0\apphost.exe">
       <PackagePath>BMI计算器\BMI计算器.exe</PackagePath>
-      <Modified>2022-07-02T12:38:55.529</Modified>
+      <Modified>2022-07-03T03:03:28.894</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Codes\BMI\Win32\v1.0\BMI计算器\BMI计算器\bin\x64\Debug\net6.0-windows10.0.19041.0\BMI计算器.runtimeconfig.json">
       <PackagePath>BMI计算器\BMI计算器.runtimeconfig.json</PackagePath>
@@ -182,7 +198,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Codes\BMI\Win32\v1.0\BMI计算器\BMI计算器\bin\x64\Debug\net6.0-windows10.0.19041.0\BMI计算器.dll">
       <PackagePath>BMI计算器\BMI计算器.dll</PackagePath>
-      <Modified>2022-07-02T12:38:55.512</Modified>
+      <Modified>2022-07-03T03:03:28.876</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
