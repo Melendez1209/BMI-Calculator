@@ -1,1 +1,0 @@
-D:\Codes\BMI\Win32\v1.0\BMI计算器\BMI计算器 (Package)\obj\x86\Debug\BMI计算器 (Package).wapproj.CoreCompileInputs.cache
