@@ -1,0 +1,10 @@
+﻿{
+    "profiles": {
+      "BMI计算器 (Package)": {
+        "commandName": "MsixPackage"
+      },
+      "BMI计算器 (Unpackaged)": {
+        "commandName": "Project"
+      }
+    }
+}

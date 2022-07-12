@@ -1,0 +1,10 @@
+D:\Codes\BMI\Win32\BMI计算器.Core\bin\x64\Debug\netstandard2.0\BMI计算器.Core.deps.json
+D:\Codes\BMI\Win32\BMI计算器.Core\bin\x64\Debug\netstandard2.0\BMI计算器.Core.dll
+D:\Codes\BMI\Win32\BMI计算器.Core\bin\x64\Debug\netstandard2.0\BMI计算器.Core.pdb
+D:\Codes\BMI\Win32\BMI计算器.Core\obj\x64\Debug\netstandard2.0\BMI计算器.Core.csproj.AssemblyReference.cache
+D:\Codes\BMI\Win32\BMI计算器.Core\obj\x64\Debug\netstandard2.0\BMI计算器.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Codes\BMI\Win32\BMI计算器.Core\obj\x64\Debug\netstandard2.0\BMI计算器.Core.AssemblyInfoInputs.cache
+D:\Codes\BMI\Win32\BMI计算器.Core\obj\x64\Debug\netstandard2.0\BMI计算器.Core.AssemblyInfo.cs
+D:\Codes\BMI\Win32\BMI计算器.Core\obj\x64\Debug\netstandard2.0\BMI计算器.Core.csproj.CoreCompileInputs.cache
+D:\Codes\BMI\Win32\BMI计算器.Core\obj\x64\Debug\netstandard2.0\BMI计算器.Core.dll
+D:\Codes\BMI\Win32\BMI计算器.Core\obj\x64\Debug\netstandard2.0\BMI计算器.Core.pdb
