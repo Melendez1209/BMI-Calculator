@@ -18,7 +18,7 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
     <LayoutDir>D:\Codes\BMI\Win32\BMI计算器\bin\x64\Debug\net6.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
-    <RegisteredManifestChecksum>175FEF104C50536772C03B57CD46A02B1EFE141C4C16EE40CD76BFB52B5C2FFC</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>E68864A258AEE6ACDA458B474143F817CE90FDB99B9340908D6BD20D9AE5C0DA</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>2639A7E7-97AC-4B13-AAB1-CE550ECF22BC_1.0.0.0_x64__dy18ev4yn3q8w</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>2639A7E7-97AC-4B13-AAB1-CE550ECF22BC_dy18ev4yn3q8w!App</RegisteredUserModeAppID>
     <RegisteredPackageID>2639A7E7-97AC-4B13-AAB1-CE550ECF22BC</RegisteredPackageID>
@@ -29,13 +29,13 @@
     <AppXManifest Include="D:\Codes\BMI\Win32\BMI计算器\bin\x64\Debug\net6.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-07-12T12:44:02.522</Modified>
+      <Modified>2022-07-13T01:25:26.998</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\Codes\BMI\Win32\BMI计算器\bin\x64\Debug\net6.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2022-07-12T12:44:02.349</Modified>
+      <Modified>2022-07-13T01:25:26.747</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Codes\BMI\Win32\BMI计算器\bin\x64\Debug\net6.0-windows10.0.19041.0\win10-x64\BMI计算器.runtimeconfig.json">
       <PackagePath>BMI计算器.runtimeconfig.json</PackagePath>
@@ -43,7 +43,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Codes\BMI\Win32\BMI计算器\bin\x64\Debug\net6.0-windows10.0.19041.0\win10-x64\BMI计算器.dll">
       <PackagePath>BMI计算器.dll</PackagePath>
-      <Modified>2022-07-12T12:44:02.211</Modified>
+      <Modified>2022-07-13T01:25:26.625</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Codes\BMI\Win32\BMI计算器\appsettings.json">
       <PackagePath>appsettings.json</PackagePath>
@@ -51,11 +51,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Codes\BMI\Win32\BMI计算器\obj\x64\Debug\net6.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>BMI计算器.exe</PackagePath>
-      <Modified>2022-07-12T12:44:02.264</Modified>
+      <Modified>2022-07-13T01:25:26.643</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Codes\BMI\Win32\BMI计算器\bin\x64\Debug\net6.0-windows10.0.19041.0\win10-x64\BMI计算器.deps.json">
       <PackagePath>BMI计算器.deps.json</PackagePath>
-      <Modified>2022-07-12T12:20:37.941</Modified>
+      <Modified>2022-07-13T01:23:19.472</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Melendez\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.6\runtimes\win-x64\lib\net6.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>

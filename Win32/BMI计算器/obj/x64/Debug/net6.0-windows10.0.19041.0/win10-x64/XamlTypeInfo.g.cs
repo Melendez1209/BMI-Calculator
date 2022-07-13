@@ -224,7 +224,7 @@ namespace BMI计算器.BMI计算器_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[28];
+            _typeNameTable = new string[40];
             _typeNameTable[0] = "Microsoft.UI.Xaml.Controls.XamlControlsResources";
             _typeNameTable[1] = "Microsoft.UI.Xaml.ResourceDictionary";
             _typeNameTable[2] = "Object";
@@ -233,28 +233,40 @@ namespace BMI计算器.BMI计算器_XamlTypeInfo
             _typeNameTable[5] = "System.ValueType";
             _typeNameTable[6] = "Double";
             _typeNameTable[7] = "Microsoft.UI.Xaml.CornerRadius";
-            _typeNameTable[8] = "Microsoft.UI.Xaml.Controls.NumberBox";
-            _typeNameTable[9] = "Microsoft.UI.Xaml.Controls.Control";
-            _typeNameTable[10] = "Microsoft.UI.Xaml.Controls.NumberBoxSpinButtonPlacementMode";
-            _typeNameTable[11] = "System.Enum";
-            _typeNameTable[12] = "Microsoft.UI.Xaml.DataTemplate";
-            _typeNameTable[13] = "Windows.Globalization.NumberFormatting.INumberFormatter2";
-            _typeNameTable[14] = "String";
-            _typeNameTable[15] = "Microsoft.UI.Xaml.Controls.Primitives.FlyoutBase";
-            _typeNameTable[16] = "Microsoft.UI.Xaml.Media.SolidColorBrush";
-            _typeNameTable[17] = "Microsoft.UI.Xaml.TextReadingOrder";
-            _typeNameTable[18] = "Microsoft.UI.Xaml.Controls.NumberBoxValidationMode";
-            _typeNameTable[19] = "BMI计算器.Views.MainPage";
-            _typeNameTable[20] = "Microsoft.UI.Xaml.Controls.Page";
-            _typeNameTable[21] = "Microsoft.UI.Xaml.Controls.UserControl";
-            _typeNameTable[22] = "BMI计算器.ViewModels.MainViewModel";
-            _typeNameTable[23] = "CommunityToolkit.Mvvm.ComponentModel.ObservableRecipient";
-            _typeNameTable[24] = "CommunityToolkit.Mvvm.ComponentModel.ObservableObject";
-            _typeNameTable[25] = "BMI计算器.Helpers.EnumToBooleanConverter";
-            _typeNameTable[26] = "BMI计算器.Views.SettingsPage";
-            _typeNameTable[27] = "BMI计算器.ViewModels.SettingsViewModel";
+            _typeNameTable[8] = "Microsoft.UI.Xaml.Controls.TeachingTip";
+            _typeNameTable[9] = "Microsoft.UI.Xaml.Controls.ContentControl";
+            _typeNameTable[10] = "String";
+            _typeNameTable[11] = "Microsoft.UI.Xaml.Controls.TeachingTipPlacementMode";
+            _typeNameTable[12] = "System.Enum";
+            _typeNameTable[13] = "System.Windows.Input.ICommand";
+            _typeNameTable[14] = "Microsoft.UI.Xaml.Style";
+            _typeNameTable[15] = "Microsoft.UI.Xaml.UIElement";
+            _typeNameTable[16] = "Microsoft.UI.Xaml.Controls.TeachingTipHeroContentPlacementMode";
+            _typeNameTable[17] = "Microsoft.UI.Xaml.Controls.IconSource";
+            _typeNameTable[18] = "Microsoft.UI.Xaml.Controls.TeachingTipTailVisibility";
+            _typeNameTable[19] = "Microsoft.UI.Xaml.FrameworkElement";
+            _typeNameTable[20] = "Microsoft.UI.Xaml.Controls.TeachingTipTemplateSettings";
+            _typeNameTable[21] = "Microsoft.UI.Xaml.DependencyObject";
+            _typeNameTable[22] = "Microsoft.UI.Xaml.Controls.NumberBox";
+            _typeNameTable[23] = "Microsoft.UI.Xaml.Controls.Control";
+            _typeNameTable[24] = "Microsoft.UI.Xaml.Controls.NumberBoxSpinButtonPlacementMode";
+            _typeNameTable[25] = "Microsoft.UI.Xaml.DataTemplate";
+            _typeNameTable[26] = "Windows.Globalization.NumberFormatting.INumberFormatter2";
+            _typeNameTable[27] = "Microsoft.UI.Xaml.Controls.Primitives.FlyoutBase";
+            _typeNameTable[28] = "Microsoft.UI.Xaml.Media.SolidColorBrush";
+            _typeNameTable[29] = "Microsoft.UI.Xaml.TextReadingOrder";
+            _typeNameTable[30] = "Microsoft.UI.Xaml.Controls.NumberBoxValidationMode";
+            _typeNameTable[31] = "BMI计算器.Views.MainPage";
+            _typeNameTable[32] = "Microsoft.UI.Xaml.Controls.Page";
+            _typeNameTable[33] = "Microsoft.UI.Xaml.Controls.UserControl";
+            _typeNameTable[34] = "BMI计算器.Views.ResultPage";
+            _typeNameTable[35] = "BMI计算器.Helpers.EnumToBooleanConverter";
+            _typeNameTable[36] = "BMI计算器.Views.SettingsPage";
+            _typeNameTable[37] = "BMI计算器.ViewModels.SettingsViewModel";
+            _typeNameTable[38] = "CommunityToolkit.Mvvm.ComponentModel.ObservableRecipient";
+            _typeNameTable[39] = "CommunityToolkit.Mvvm.ComponentModel.ObservableObject";
 
-            _typeTable = new global::System.Type[28];
+            _typeTable = new global::System.Type[40];
             _typeTable[0] = typeof(global::Microsoft.UI.Xaml.Controls.XamlControlsResources);
             _typeTable[1] = typeof(global::Microsoft.UI.Xaml.ResourceDictionary);
             _typeTable[2] = typeof(global::System.Object);
@@ -263,26 +275,38 @@ namespace BMI计算器.BMI计算器_XamlTypeInfo
             _typeTable[5] = typeof(global::System.ValueType);
             _typeTable[6] = typeof(global::System.Double);
             _typeTable[7] = typeof(global::Microsoft.UI.Xaml.CornerRadius);
-            _typeTable[8] = typeof(global::Microsoft.UI.Xaml.Controls.NumberBox);
-            _typeTable[9] = typeof(global::Microsoft.UI.Xaml.Controls.Control);
-            _typeTable[10] = typeof(global::Microsoft.UI.Xaml.Controls.NumberBoxSpinButtonPlacementMode);
-            _typeTable[11] = typeof(global::System.Enum);
-            _typeTable[12] = typeof(global::Microsoft.UI.Xaml.DataTemplate);
-            _typeTable[13] = typeof(global::Windows.Globalization.NumberFormatting.INumberFormatter2);
-            _typeTable[14] = typeof(global::System.String);
-            _typeTable[15] = typeof(global::Microsoft.UI.Xaml.Controls.Primitives.FlyoutBase);
-            _typeTable[16] = typeof(global::Microsoft.UI.Xaml.Media.SolidColorBrush);
-            _typeTable[17] = typeof(global::Microsoft.UI.Xaml.TextReadingOrder);
-            _typeTable[18] = typeof(global::Microsoft.UI.Xaml.Controls.NumberBoxValidationMode);
-            _typeTable[19] = typeof(global::BMI计算器.Views.MainPage);
-            _typeTable[20] = typeof(global::Microsoft.UI.Xaml.Controls.Page);
-            _typeTable[21] = typeof(global::Microsoft.UI.Xaml.Controls.UserControl);
-            _typeTable[22] = typeof(global::BMI计算器.ViewModels.MainViewModel);
-            _typeTable[23] = typeof(global::CommunityToolkit.Mvvm.ComponentModel.ObservableRecipient);
-            _typeTable[24] = typeof(global::CommunityToolkit.Mvvm.ComponentModel.ObservableObject);
-            _typeTable[25] = typeof(global::BMI计算器.Helpers.EnumToBooleanConverter);
-            _typeTable[26] = typeof(global::BMI计算器.Views.SettingsPage);
-            _typeTable[27] = typeof(global::BMI计算器.ViewModels.SettingsViewModel);
+            _typeTable[8] = typeof(global::Microsoft.UI.Xaml.Controls.TeachingTip);
+            _typeTable[9] = typeof(global::Microsoft.UI.Xaml.Controls.ContentControl);
+            _typeTable[10] = typeof(global::System.String);
+            _typeTable[11] = typeof(global::Microsoft.UI.Xaml.Controls.TeachingTipPlacementMode);
+            _typeTable[12] = typeof(global::System.Enum);
+            _typeTable[13] = typeof(global::System.Windows.Input.ICommand);
+            _typeTable[14] = typeof(global::Microsoft.UI.Xaml.Style);
+            _typeTable[15] = typeof(global::Microsoft.UI.Xaml.UIElement);
+            _typeTable[16] = typeof(global::Microsoft.UI.Xaml.Controls.TeachingTipHeroContentPlacementMode);
+            _typeTable[17] = typeof(global::Microsoft.UI.Xaml.Controls.IconSource);
+            _typeTable[18] = typeof(global::Microsoft.UI.Xaml.Controls.TeachingTipTailVisibility);
+            _typeTable[19] = typeof(global::Microsoft.UI.Xaml.FrameworkElement);
+            _typeTable[20] = typeof(global::Microsoft.UI.Xaml.Controls.TeachingTipTemplateSettings);
+            _typeTable[21] = typeof(global::Microsoft.UI.Xaml.DependencyObject);
+            _typeTable[22] = typeof(global::Microsoft.UI.Xaml.Controls.NumberBox);
+            _typeTable[23] = typeof(global::Microsoft.UI.Xaml.Controls.Control);
+            _typeTable[24] = typeof(global::Microsoft.UI.Xaml.Controls.NumberBoxSpinButtonPlacementMode);
+            _typeTable[25] = typeof(global::Microsoft.UI.Xaml.DataTemplate);
+            _typeTable[26] = typeof(global::Windows.Globalization.NumberFormatting.INumberFormatter2);
+            _typeTable[27] = typeof(global::Microsoft.UI.Xaml.Controls.Primitives.FlyoutBase);
+            _typeTable[28] = typeof(global::Microsoft.UI.Xaml.Media.SolidColorBrush);
+            _typeTable[29] = typeof(global::Microsoft.UI.Xaml.TextReadingOrder);
+            _typeTable[30] = typeof(global::Microsoft.UI.Xaml.Controls.NumberBoxValidationMode);
+            _typeTable[31] = typeof(global::BMI计算器.Views.MainPage);
+            _typeTable[32] = typeof(global::Microsoft.UI.Xaml.Controls.Page);
+            _typeTable[33] = typeof(global::Microsoft.UI.Xaml.Controls.UserControl);
+            _typeTable[34] = typeof(global::BMI计算器.Views.ResultPage);
+            _typeTable[35] = typeof(global::BMI计算器.Helpers.EnumToBooleanConverter);
+            _typeTable[36] = typeof(global::BMI计算器.Views.SettingsPage);
+            _typeTable[37] = typeof(global::BMI计算器.ViewModels.SettingsViewModel);
+            _typeTable[38] = typeof(global::CommunityToolkit.Mvvm.ComponentModel.ObservableRecipient);
+            _typeTable[39] = typeof(global::CommunityToolkit.Mvvm.ComponentModel.ObservableObject);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -318,11 +342,13 @@ namespace BMI计算器.BMI计算器_XamlTypeInfo
         }
 
         private object Activate_0_XamlControlsResources() { return new global::Microsoft.UI.Xaml.Controls.XamlControlsResources(); }
-        private object Activate_8_NumberBox() { return new global::Microsoft.UI.Xaml.Controls.NumberBox(); }
-        private object Activate_19_MainPage() { return new global::BMI计算器.Views.MainPage(); }
-        private object Activate_22_MainViewModel() { return new global::BMI计算器.ViewModels.MainViewModel(); }
-        private object Activate_25_EnumToBooleanConverter() { return new global::BMI计算器.Helpers.EnumToBooleanConverter(); }
-        private object Activate_26_SettingsPage() { return new global::BMI计算器.Views.SettingsPage(); }
+        private object Activate_8_TeachingTip() { return new global::Microsoft.UI.Xaml.Controls.TeachingTip(); }
+        private object Activate_20_TeachingTipTemplateSettings() { return new global::Microsoft.UI.Xaml.Controls.TeachingTipTemplateSettings(); }
+        private object Activate_22_NumberBox() { return new global::Microsoft.UI.Xaml.Controls.NumberBox(); }
+        private object Activate_31_MainPage() { return new global::BMI计算器.Views.MainPage(); }
+        private object Activate_34_ResultPage() { return new global::BMI计算器.Views.ResultPage(); }
+        private object Activate_35_EnumToBooleanConverter() { return new global::BMI计算器.Helpers.EnumToBooleanConverter(); }
+        private object Activate_36_SettingsPage() { return new global::BMI计算器.Views.SettingsPage(); }
         private void MapAdd_0_XamlControlsResources(object instance, object key, object item)
         {
             var collection = (global::System.Collections.Generic.IDictionary<global::System.Object, global::System.Object>)instance;
@@ -388,9 +414,116 @@ namespace BMI计算器.BMI计算器_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 8:   //  Microsoft.UI.Xaml.Controls.NumberBox
+            case 8:   //  Microsoft.UI.Xaml.Controls.TeachingTip
+                userType = new global::BMI计算器.BMI计算器_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.ContentControl"));
+                userType.Activator = Activate_8_TeachingTip;
+                userType.AddMemberName("Title");
+                userType.AddMemberName("Subtitle");
+                userType.AddMemberName("PreferredPlacement");
+                userType.AddMemberName("PlacementMargin");
+                userType.AddMemberName("IsLightDismissEnabled");
+                userType.AddMemberName("ActionButtonContent");
+                userType.AddMemberName("CloseButtonContent");
+                userType.AddMemberName("ActionButtonCommand");
+                userType.AddMemberName("ActionButtonCommandParameter");
+                userType.AddMemberName("ActionButtonStyle");
+                userType.AddMemberName("CloseButtonCommand");
+                userType.AddMemberName("CloseButtonCommandParameter");
+                userType.AddMemberName("CloseButtonStyle");
+                userType.AddMemberName("HeroContent");
+                userType.AddMemberName("HeroContentPlacement");
+                userType.AddMemberName("IconSource");
+                userType.AddMemberName("IsOpen");
+                userType.AddMemberName("ShouldConstrainToRootBounds");
+                userType.AddMemberName("TailVisibility");
+                userType.AddMemberName("Target");
+                userType.AddMemberName("TemplateSettings");
+                xamlType = userType;
+                break;
+
+            case 9:   //  Microsoft.UI.Xaml.Controls.ContentControl
+                xamlType = new global::BMI计算器.BMI计算器_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 10:   //  String
+                xamlType = new global::BMI计算器.BMI计算器_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 11:   //  Microsoft.UI.Xaml.Controls.TeachingTipPlacementMode
+                userType = new global::BMI计算器.BMI计算器_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
+                userType.AddEnumValue("Auto", global::Microsoft.UI.Xaml.Controls.TeachingTipPlacementMode.Auto);
+                userType.AddEnumValue("Top", global::Microsoft.UI.Xaml.Controls.TeachingTipPlacementMode.Top);
+                userType.AddEnumValue("Bottom", global::Microsoft.UI.Xaml.Controls.TeachingTipPlacementMode.Bottom);
+                userType.AddEnumValue("Left", global::Microsoft.UI.Xaml.Controls.TeachingTipPlacementMode.Left);
+                userType.AddEnumValue("Right", global::Microsoft.UI.Xaml.Controls.TeachingTipPlacementMode.Right);
+                userType.AddEnumValue("TopRight", global::Microsoft.UI.Xaml.Controls.TeachingTipPlacementMode.TopRight);
+                userType.AddEnumValue("TopLeft", global::Microsoft.UI.Xaml.Controls.TeachingTipPlacementMode.TopLeft);
+                userType.AddEnumValue("BottomRight", global::Microsoft.UI.Xaml.Controls.TeachingTipPlacementMode.BottomRight);
+                userType.AddEnumValue("BottomLeft", global::Microsoft.UI.Xaml.Controls.TeachingTipPlacementMode.BottomLeft);
+                userType.AddEnumValue("LeftTop", global::Microsoft.UI.Xaml.Controls.TeachingTipPlacementMode.LeftTop);
+                userType.AddEnumValue("LeftBottom", global::Microsoft.UI.Xaml.Controls.TeachingTipPlacementMode.LeftBottom);
+                userType.AddEnumValue("RightTop", global::Microsoft.UI.Xaml.Controls.TeachingTipPlacementMode.RightTop);
+                userType.AddEnumValue("RightBottom", global::Microsoft.UI.Xaml.Controls.TeachingTipPlacementMode.RightBottom);
+                userType.AddEnumValue("Center", global::Microsoft.UI.Xaml.Controls.TeachingTipPlacementMode.Center);
+                xamlType = userType;
+                break;
+
+            case 12:   //  System.Enum
+                userType = new global::BMI计算器.BMI计算器_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.ValueType"));
+                xamlType = userType;
+                break;
+
+            case 13:   //  System.Windows.Input.ICommand
+                userType = new global::BMI计算器.BMI计算器_XamlTypeInfo.XamlUserType(this, typeName, type, null);
+                userType.SetIsReturnTypeStub();
+                xamlType = userType;
+                break;
+
+            case 14:   //  Microsoft.UI.Xaml.Style
+                xamlType = new global::BMI计算器.BMI计算器_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 15:   //  Microsoft.UI.Xaml.UIElement
+                xamlType = new global::BMI计算器.BMI计算器_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 16:   //  Microsoft.UI.Xaml.Controls.TeachingTipHeroContentPlacementMode
+                userType = new global::BMI计算器.BMI计算器_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
+                userType.AddEnumValue("Auto", global::Microsoft.UI.Xaml.Controls.TeachingTipHeroContentPlacementMode.Auto);
+                userType.AddEnumValue("Top", global::Microsoft.UI.Xaml.Controls.TeachingTipHeroContentPlacementMode.Top);
+                userType.AddEnumValue("Bottom", global::Microsoft.UI.Xaml.Controls.TeachingTipHeroContentPlacementMode.Bottom);
+                xamlType = userType;
+                break;
+
+            case 17:   //  Microsoft.UI.Xaml.Controls.IconSource
+                xamlType = new global::BMI计算器.BMI计算器_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 18:   //  Microsoft.UI.Xaml.Controls.TeachingTipTailVisibility
+                userType = new global::BMI计算器.BMI计算器_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
+                userType.AddEnumValue("Auto", global::Microsoft.UI.Xaml.Controls.TeachingTipTailVisibility.Auto);
+                userType.AddEnumValue("Visible", global::Microsoft.UI.Xaml.Controls.TeachingTipTailVisibility.Visible);
+                userType.AddEnumValue("Collapsed", global::Microsoft.UI.Xaml.Controls.TeachingTipTailVisibility.Collapsed);
+                xamlType = userType;
+                break;
+
+            case 19:   //  Microsoft.UI.Xaml.FrameworkElement
+                xamlType = new global::BMI计算器.BMI计算器_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 20:   //  Microsoft.UI.Xaml.Controls.TeachingTipTemplateSettings
+                userType = new global::BMI计算器.BMI计算器_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.DependencyObject"));
+                userType.SetIsReturnTypeStub();
+                xamlType = userType;
+                break;
+
+            case 21:   //  Microsoft.UI.Xaml.DependencyObject
+                xamlType = new global::BMI计算器.BMI计算器_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 22:   //  Microsoft.UI.Xaml.Controls.NumberBox
                 userType = new global::BMI计算器.BMI计算器_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Control"));
-                userType.Activator = Activate_8_NumberBox;
+                userType.Activator = Activate_22_NumberBox;
                 userType.AddMemberName("Header");
                 userType.AddMemberName("Value");
                 userType.AddMemberName("SpinButtonPlacementMode");
@@ -413,11 +546,11 @@ namespace BMI计算器.BMI计算器_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 9:   //  Microsoft.UI.Xaml.Controls.Control
+            case 23:   //  Microsoft.UI.Xaml.Controls.Control
                 xamlType = new global::BMI计算器.BMI计算器_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 10:   //  Microsoft.UI.Xaml.Controls.NumberBoxSpinButtonPlacementMode
+            case 24:   //  Microsoft.UI.Xaml.Controls.NumberBoxSpinButtonPlacementMode
                 userType = new global::BMI计算器.BMI计算器_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
                 userType.AddEnumValue("Hidden", global::Microsoft.UI.Xaml.Controls.NumberBoxSpinButtonPlacementMode.Hidden);
                 userType.AddEnumValue("Compact", global::Microsoft.UI.Xaml.Controls.NumberBoxSpinButtonPlacementMode.Compact);
@@ -425,96 +558,86 @@ namespace BMI计算器.BMI计算器_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 11:   //  System.Enum
-                userType = new global::BMI计算器.BMI计算器_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.ValueType"));
-                xamlType = userType;
-                break;
-
-            case 12:   //  Microsoft.UI.Xaml.DataTemplate
+            case 25:   //  Microsoft.UI.Xaml.DataTemplate
                 xamlType = new global::BMI计算器.BMI计算器_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 13:   //  Windows.Globalization.NumberFormatting.INumberFormatter2
+            case 26:   //  Windows.Globalization.NumberFormatting.INumberFormatter2
                 userType = new global::BMI计算器.BMI计算器_XamlTypeInfo.XamlUserType(this, typeName, type, null);
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 14:   //  String
+            case 27:   //  Microsoft.UI.Xaml.Controls.Primitives.FlyoutBase
                 xamlType = new global::BMI计算器.BMI计算器_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 15:   //  Microsoft.UI.Xaml.Controls.Primitives.FlyoutBase
+            case 28:   //  Microsoft.UI.Xaml.Media.SolidColorBrush
                 xamlType = new global::BMI计算器.BMI计算器_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 16:   //  Microsoft.UI.Xaml.Media.SolidColorBrush
+            case 29:   //  Microsoft.UI.Xaml.TextReadingOrder
                 xamlType = new global::BMI计算器.BMI计算器_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 17:   //  Microsoft.UI.Xaml.TextReadingOrder
-                xamlType = new global::BMI计算器.BMI计算器_XamlTypeInfo.XamlSystemBaseType(typeName, type);
-                break;
-
-            case 18:   //  Microsoft.UI.Xaml.Controls.NumberBoxValidationMode
+            case 30:   //  Microsoft.UI.Xaml.Controls.NumberBoxValidationMode
                 userType = new global::BMI计算器.BMI计算器_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
                 userType.AddEnumValue("InvalidInputOverwritten", global::Microsoft.UI.Xaml.Controls.NumberBoxValidationMode.InvalidInputOverwritten);
                 userType.AddEnumValue("Disabled", global::Microsoft.UI.Xaml.Controls.NumberBoxValidationMode.Disabled);
                 xamlType = userType;
                 break;
 
-            case 19:   //  BMI计算器.Views.MainPage
+            case 31:   //  BMI计算器.Views.MainPage
                 userType = new global::BMI计算器.BMI计算器_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_19_MainPage;
+                userType.Activator = Activate_31_MainPage;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 32:   //  Microsoft.UI.Xaml.Controls.Page
+                xamlType = new global::BMI计算器.BMI计算器_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 33:   //  Microsoft.UI.Xaml.Controls.UserControl
+                xamlType = new global::BMI计算器.BMI计算器_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 34:   //  BMI计算器.Views.ResultPage
+                userType = new global::BMI计算器.BMI计算器_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_34_ResultPage;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 35:   //  BMI计算器.Helpers.EnumToBooleanConverter
+                userType = new global::BMI计算器.BMI计算器_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType.Activator = Activate_35_EnumToBooleanConverter;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 36:   //  BMI计算器.Views.SettingsPage
+                userType = new global::BMI计算器.BMI计算器_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_36_SettingsPage;
                 userType.AddMemberName("ViewModel");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 20:   //  Microsoft.UI.Xaml.Controls.Page
-                xamlType = new global::BMI计算器.BMI计算器_XamlTypeInfo.XamlSystemBaseType(typeName, type);
-                break;
-
-            case 21:   //  Microsoft.UI.Xaml.Controls.UserControl
-                xamlType = new global::BMI计算器.BMI计算器_XamlTypeInfo.XamlSystemBaseType(typeName, type);
-                break;
-
-            case 22:   //  BMI计算器.ViewModels.MainViewModel
+            case 37:   //  BMI计算器.ViewModels.SettingsViewModel
                 userType = new global::BMI计算器.BMI计算器_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("CommunityToolkit.Mvvm.ComponentModel.ObservableRecipient"));
                 userType.SetIsReturnTypeStub();
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 23:   //  CommunityToolkit.Mvvm.ComponentModel.ObservableRecipient
+            case 38:   //  CommunityToolkit.Mvvm.ComponentModel.ObservableRecipient
                 userType = new global::BMI计算器.BMI计算器_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("CommunityToolkit.Mvvm.ComponentModel.ObservableObject"));
                 xamlType = userType;
                 break;
 
-            case 24:   //  CommunityToolkit.Mvvm.ComponentModel.ObservableObject
+            case 39:   //  CommunityToolkit.Mvvm.ComponentModel.ObservableObject
                 userType = new global::BMI计算器.BMI计算器_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                xamlType = userType;
-                break;
-
-            case 25:   //  BMI计算器.Helpers.EnumToBooleanConverter
-                userType = new global::BMI计算器.BMI计算器_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.Activator = Activate_25_EnumToBooleanConverter;
-                userType.SetIsLocalType();
-                xamlType = userType;
-                break;
-
-            case 26:   //  BMI计算器.Views.SettingsPage
-                userType = new global::BMI计算器.BMI计算器_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_26_SettingsPage;
-                userType.AddMemberName("ViewModel");
-                userType.SetIsLocalType();
-                xamlType = userType;
-                break;
-
-            case 27:   //  BMI计算器.ViewModels.SettingsViewModel
-                userType = new global::BMI计算器.BMI计算器_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("CommunityToolkit.Mvvm.ComponentModel.ObservableRecipient"));
-                userType.SetIsReturnTypeStub();
-                userType.SetIsLocalType();
                 xamlType = userType;
                 break;
             }
@@ -666,202 +789,402 @@ namespace BMI计算器.BMI计算器_XamlTypeInfo
             var that = (global::Microsoft.UI.Xaml.CornerRadius)instance;
             that.BottomLeft = (global::System.Double)Value;
         }
-        private object get_9_NumberBox_Header(object instance)
+        private object get_9_TeachingTip_Title(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.TeachingTip)instance;
+            return that.Title;
+        }
+        private void set_9_TeachingTip_Title(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.TeachingTip)instance;
+            that.Title = (global::System.String)Value;
+        }
+        private object get_10_TeachingTip_Subtitle(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.TeachingTip)instance;
+            return that.Subtitle;
+        }
+        private void set_10_TeachingTip_Subtitle(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.TeachingTip)instance;
+            that.Subtitle = (global::System.String)Value;
+        }
+        private object get_11_TeachingTip_PreferredPlacement(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.TeachingTip)instance;
+            return that.PreferredPlacement;
+        }
+        private void set_11_TeachingTip_PreferredPlacement(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.TeachingTip)instance;
+            that.PreferredPlacement = (global::Microsoft.UI.Xaml.Controls.TeachingTipPlacementMode)Value;
+        }
+        private object get_12_TeachingTip_PlacementMargin(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.TeachingTip)instance;
+            return that.PlacementMargin;
+        }
+        private void set_12_TeachingTip_PlacementMargin(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.TeachingTip)instance;
+            that.PlacementMargin = (global::Microsoft.UI.Xaml.Thickness)Value;
+        }
+        private object get_13_TeachingTip_IsLightDismissEnabled(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.TeachingTip)instance;
+            return that.IsLightDismissEnabled;
+        }
+        private void set_13_TeachingTip_IsLightDismissEnabled(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.TeachingTip)instance;
+            that.IsLightDismissEnabled = (global::System.Boolean)Value;
+        }
+        private object get_14_TeachingTip_ActionButtonContent(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.TeachingTip)instance;
+            return that.ActionButtonContent;
+        }
+        private void set_14_TeachingTip_ActionButtonContent(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.TeachingTip)instance;
+            that.ActionButtonContent = (global::System.Object)Value;
+        }
+        private object get_15_TeachingTip_CloseButtonContent(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.TeachingTip)instance;
+            return that.CloseButtonContent;
+        }
+        private void set_15_TeachingTip_CloseButtonContent(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.TeachingTip)instance;
+            that.CloseButtonContent = (global::System.Object)Value;
+        }
+        private object get_16_TeachingTip_ActionButtonCommand(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.TeachingTip)instance;
+            return that.ActionButtonCommand;
+        }
+        private void set_16_TeachingTip_ActionButtonCommand(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.TeachingTip)instance;
+            that.ActionButtonCommand = (global::System.Windows.Input.ICommand)Value;
+        }
+        private object get_17_TeachingTip_ActionButtonCommandParameter(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.TeachingTip)instance;
+            return that.ActionButtonCommandParameter;
+        }
+        private void set_17_TeachingTip_ActionButtonCommandParameter(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.TeachingTip)instance;
+            that.ActionButtonCommandParameter = (global::System.Object)Value;
+        }
+        private object get_18_TeachingTip_ActionButtonStyle(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.TeachingTip)instance;
+            return that.ActionButtonStyle;
+        }
+        private void set_18_TeachingTip_ActionButtonStyle(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.TeachingTip)instance;
+            that.ActionButtonStyle = (global::Microsoft.UI.Xaml.Style)Value;
+        }
+        private object get_19_TeachingTip_CloseButtonCommand(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.TeachingTip)instance;
+            return that.CloseButtonCommand;
+        }
+        private void set_19_TeachingTip_CloseButtonCommand(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.TeachingTip)instance;
+            that.CloseButtonCommand = (global::System.Windows.Input.ICommand)Value;
+        }
+        private object get_20_TeachingTip_CloseButtonCommandParameter(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.TeachingTip)instance;
+            return that.CloseButtonCommandParameter;
+        }
+        private void set_20_TeachingTip_CloseButtonCommandParameter(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.TeachingTip)instance;
+            that.CloseButtonCommandParameter = (global::System.Object)Value;
+        }
+        private object get_21_TeachingTip_CloseButtonStyle(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.TeachingTip)instance;
+            return that.CloseButtonStyle;
+        }
+        private void set_21_TeachingTip_CloseButtonStyle(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.TeachingTip)instance;
+            that.CloseButtonStyle = (global::Microsoft.UI.Xaml.Style)Value;
+        }
+        private object get_22_TeachingTip_HeroContent(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.TeachingTip)instance;
+            return that.HeroContent;
+        }
+        private void set_22_TeachingTip_HeroContent(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.TeachingTip)instance;
+            that.HeroContent = (global::Microsoft.UI.Xaml.UIElement)Value;
+        }
+        private object get_23_TeachingTip_HeroContentPlacement(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.TeachingTip)instance;
+            return that.HeroContentPlacement;
+        }
+        private void set_23_TeachingTip_HeroContentPlacement(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.TeachingTip)instance;
+            that.HeroContentPlacement = (global::Microsoft.UI.Xaml.Controls.TeachingTipHeroContentPlacementMode)Value;
+        }
+        private object get_24_TeachingTip_IconSource(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.TeachingTip)instance;
+            return that.IconSource;
+        }
+        private void set_24_TeachingTip_IconSource(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.TeachingTip)instance;
+            that.IconSource = (global::Microsoft.UI.Xaml.Controls.IconSource)Value;
+        }
+        private object get_25_TeachingTip_IsOpen(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.TeachingTip)instance;
+            return that.IsOpen;
+        }
+        private void set_25_TeachingTip_IsOpen(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.TeachingTip)instance;
+            that.IsOpen = (global::System.Boolean)Value;
+        }
+        private object get_26_TeachingTip_ShouldConstrainToRootBounds(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.TeachingTip)instance;
+            return that.ShouldConstrainToRootBounds;
+        }
+        private void set_26_TeachingTip_ShouldConstrainToRootBounds(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.TeachingTip)instance;
+            that.ShouldConstrainToRootBounds = (global::System.Boolean)Value;
+        }
+        private object get_27_TeachingTip_TailVisibility(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.TeachingTip)instance;
+            return that.TailVisibility;
+        }
+        private void set_27_TeachingTip_TailVisibility(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.TeachingTip)instance;
+            that.TailVisibility = (global::Microsoft.UI.Xaml.Controls.TeachingTipTailVisibility)Value;
+        }
+        private object get_28_TeachingTip_Target(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.TeachingTip)instance;
+            return that.Target;
+        }
+        private void set_28_TeachingTip_Target(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.TeachingTip)instance;
+            that.Target = (global::Microsoft.UI.Xaml.FrameworkElement)Value;
+        }
+        private object get_29_TeachingTip_TemplateSettings(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.TeachingTip)instance;
+            return that.TemplateSettings;
+        }
+        private object get_30_NumberBox_Header(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
             return that.Header;
         }
-        private void set_9_NumberBox_Header(object instance, object Value)
+        private void set_30_NumberBox_Header(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
             that.Header = (global::System.Object)Value;
         }
-        private object get_10_NumberBox_Value(object instance)
+        private object get_31_NumberBox_Value(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
             return that.Value;
         }
-        private void set_10_NumberBox_Value(object instance, object Value)
+        private void set_31_NumberBox_Value(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
             that.Value = (global::System.Double)Value;
         }
-        private object get_11_NumberBox_SpinButtonPlacementMode(object instance)
+        private object get_32_NumberBox_SpinButtonPlacementMode(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
             return that.SpinButtonPlacementMode;
         }
-        private void set_11_NumberBox_SpinButtonPlacementMode(object instance, object Value)
+        private void set_32_NumberBox_SpinButtonPlacementMode(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
             that.SpinButtonPlacementMode = (global::Microsoft.UI.Xaml.Controls.NumberBoxSpinButtonPlacementMode)Value;
         }
-        private object get_12_NumberBox_SmallChange(object instance)
+        private object get_33_NumberBox_SmallChange(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
             return that.SmallChange;
         }
-        private void set_12_NumberBox_SmallChange(object instance, object Value)
+        private void set_33_NumberBox_SmallChange(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
             that.SmallChange = (global::System.Double)Value;
         }
-        private object get_13_NumberBox_LargeChange(object instance)
+        private object get_34_NumberBox_LargeChange(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
             return that.LargeChange;
         }
-        private void set_13_NumberBox_LargeChange(object instance, object Value)
+        private void set_34_NumberBox_LargeChange(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
             that.LargeChange = (global::System.Double)Value;
         }
-        private object get_14_NumberBox_AcceptsExpression(object instance)
+        private object get_35_NumberBox_AcceptsExpression(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
             return that.AcceptsExpression;
         }
-        private void set_14_NumberBox_AcceptsExpression(object instance, object Value)
+        private void set_35_NumberBox_AcceptsExpression(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
             that.AcceptsExpression = (global::System.Boolean)Value;
         }
-        private object get_15_NumberBox_Description(object instance)
+        private object get_36_NumberBox_Description(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
             return that.Description;
         }
-        private void set_15_NumberBox_Description(object instance, object Value)
+        private void set_36_NumberBox_Description(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
             that.Description = (global::System.Object)Value;
         }
-        private object get_16_NumberBox_HeaderTemplate(object instance)
+        private object get_37_NumberBox_HeaderTemplate(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
             return that.HeaderTemplate;
         }
-        private void set_16_NumberBox_HeaderTemplate(object instance, object Value)
+        private void set_37_NumberBox_HeaderTemplate(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
             that.HeaderTemplate = (global::Microsoft.UI.Xaml.DataTemplate)Value;
         }
-        private object get_17_NumberBox_IsWrapEnabled(object instance)
+        private object get_38_NumberBox_IsWrapEnabled(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
             return that.IsWrapEnabled;
         }
-        private void set_17_NumberBox_IsWrapEnabled(object instance, object Value)
+        private void set_38_NumberBox_IsWrapEnabled(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
             that.IsWrapEnabled = (global::System.Boolean)Value;
         }
-        private object get_18_NumberBox_Maximum(object instance)
+        private object get_39_NumberBox_Maximum(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
             return that.Maximum;
         }
-        private void set_18_NumberBox_Maximum(object instance, object Value)
+        private void set_39_NumberBox_Maximum(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
             that.Maximum = (global::System.Double)Value;
         }
-        private object get_19_NumberBox_Minimum(object instance)
+        private object get_40_NumberBox_Minimum(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
             return that.Minimum;
         }
-        private void set_19_NumberBox_Minimum(object instance, object Value)
+        private void set_40_NumberBox_Minimum(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
             that.Minimum = (global::System.Double)Value;
         }
-        private object get_20_NumberBox_NumberFormatter(object instance)
+        private object get_41_NumberBox_NumberFormatter(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
             return that.NumberFormatter;
         }
-        private void set_20_NumberBox_NumberFormatter(object instance, object Value)
+        private void set_41_NumberBox_NumberFormatter(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
             that.NumberFormatter = (global::Windows.Globalization.NumberFormatting.INumberFormatter2)Value;
         }
-        private object get_21_NumberBox_PlaceholderText(object instance)
+        private object get_42_NumberBox_PlaceholderText(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
             return that.PlaceholderText;
         }
-        private void set_21_NumberBox_PlaceholderText(object instance, object Value)
+        private void set_42_NumberBox_PlaceholderText(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
             that.PlaceholderText = (global::System.String)Value;
         }
-        private object get_22_NumberBox_PreventKeyboardDisplayOnProgrammaticFocus(object instance)
+        private object get_43_NumberBox_PreventKeyboardDisplayOnProgrammaticFocus(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
             return that.PreventKeyboardDisplayOnProgrammaticFocus;
         }
-        private void set_22_NumberBox_PreventKeyboardDisplayOnProgrammaticFocus(object instance, object Value)
+        private void set_43_NumberBox_PreventKeyboardDisplayOnProgrammaticFocus(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
             that.PreventKeyboardDisplayOnProgrammaticFocus = (global::System.Boolean)Value;
         }
-        private object get_23_NumberBox_SelectionFlyout(object instance)
+        private object get_44_NumberBox_SelectionFlyout(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
             return that.SelectionFlyout;
         }
-        private void set_23_NumberBox_SelectionFlyout(object instance, object Value)
+        private void set_44_NumberBox_SelectionFlyout(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
             that.SelectionFlyout = (global::Microsoft.UI.Xaml.Controls.Primitives.FlyoutBase)Value;
         }
-        private object get_24_NumberBox_SelectionHighlightColor(object instance)
+        private object get_45_NumberBox_SelectionHighlightColor(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
             return that.SelectionHighlightColor;
         }
-        private void set_24_NumberBox_SelectionHighlightColor(object instance, object Value)
+        private void set_45_NumberBox_SelectionHighlightColor(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
             that.SelectionHighlightColor = (global::Microsoft.UI.Xaml.Media.SolidColorBrush)Value;
         }
-        private object get_25_NumberBox_Text(object instance)
+        private object get_46_NumberBox_Text(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
             return that.Text;
         }
-        private void set_25_NumberBox_Text(object instance, object Value)
+        private void set_46_NumberBox_Text(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
             that.Text = (global::System.String)Value;
         }
-        private object get_26_NumberBox_TextReadingOrder(object instance)
+        private object get_47_NumberBox_TextReadingOrder(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
             return that.TextReadingOrder;
         }
-        private void set_26_NumberBox_TextReadingOrder(object instance, object Value)
+        private void set_47_NumberBox_TextReadingOrder(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
             that.TextReadingOrder = (global::Microsoft.UI.Xaml.TextReadingOrder)Value;
         }
-        private object get_27_NumberBox_ValidationMode(object instance)
+        private object get_48_NumberBox_ValidationMode(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
             return that.ValidationMode;
         }
-        private void set_27_NumberBox_ValidationMode(object instance, object Value)
+        private void set_48_NumberBox_ValidationMode(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
             that.ValidationMode = (global::Microsoft.UI.Xaml.Controls.NumberBoxValidationMode)Value;
         }
-        private object get_28_MainPage_ViewModel(object instance)
-        {
-            var that = (global::BMI计算器.Views.MainPage)instance;
-            return that.ViewModel;
-        }
-        private object get_29_SettingsPage_ViewModel(object instance)
+        private object get_49_SettingsPage_ViewModel(object instance)
         {
             var that = (global::BMI计算器.Views.SettingsPage)instance;
             return that.ViewModel;
@@ -929,149 +1252,290 @@ namespace BMI计算器.BMI计算器_XamlTypeInfo
                 xamlMember.Getter = get_8_CornerRadius_BottomLeft;
                 xamlMember.Setter = set_8_CornerRadius_BottomLeft;
                 break;
+            case "Microsoft.UI.Xaml.Controls.TeachingTip.Title":
+                userType = (global::BMI计算器.BMI计算器_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TeachingTip");
+                xamlMember = new global::BMI计算器.BMI计算器_XamlTypeInfo.XamlMember(this, "Title", "String");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_9_TeachingTip_Title;
+                xamlMember.Setter = set_9_TeachingTip_Title;
+                break;
+            case "Microsoft.UI.Xaml.Controls.TeachingTip.Subtitle":
+                userType = (global::BMI计算器.BMI计算器_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TeachingTip");
+                xamlMember = new global::BMI计算器.BMI计算器_XamlTypeInfo.XamlMember(this, "Subtitle", "String");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_10_TeachingTip_Subtitle;
+                xamlMember.Setter = set_10_TeachingTip_Subtitle;
+                break;
+            case "Microsoft.UI.Xaml.Controls.TeachingTip.PreferredPlacement":
+                userType = (global::BMI计算器.BMI计算器_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TeachingTip");
+                xamlMember = new global::BMI计算器.BMI计算器_XamlTypeInfo.XamlMember(this, "PreferredPlacement", "Microsoft.UI.Xaml.Controls.TeachingTipPlacementMode");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_11_TeachingTip_PreferredPlacement;
+                xamlMember.Setter = set_11_TeachingTip_PreferredPlacement;
+                break;
+            case "Microsoft.UI.Xaml.Controls.TeachingTip.PlacementMargin":
+                userType = (global::BMI计算器.BMI计算器_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TeachingTip");
+                xamlMember = new global::BMI计算器.BMI计算器_XamlTypeInfo.XamlMember(this, "PlacementMargin", "Microsoft.UI.Xaml.Thickness");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_12_TeachingTip_PlacementMargin;
+                xamlMember.Setter = set_12_TeachingTip_PlacementMargin;
+                break;
+            case "Microsoft.UI.Xaml.Controls.TeachingTip.IsLightDismissEnabled":
+                userType = (global::BMI计算器.BMI计算器_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TeachingTip");
+                xamlMember = new global::BMI计算器.BMI计算器_XamlTypeInfo.XamlMember(this, "IsLightDismissEnabled", "Boolean");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_13_TeachingTip_IsLightDismissEnabled;
+                xamlMember.Setter = set_13_TeachingTip_IsLightDismissEnabled;
+                break;
+            case "Microsoft.UI.Xaml.Controls.TeachingTip.ActionButtonContent":
+                userType = (global::BMI计算器.BMI计算器_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TeachingTip");
+                xamlMember = new global::BMI计算器.BMI计算器_XamlTypeInfo.XamlMember(this, "ActionButtonContent", "Object");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_14_TeachingTip_ActionButtonContent;
+                xamlMember.Setter = set_14_TeachingTip_ActionButtonContent;
+                break;
+            case "Microsoft.UI.Xaml.Controls.TeachingTip.CloseButtonContent":
+                userType = (global::BMI计算器.BMI计算器_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TeachingTip");
+                xamlMember = new global::BMI计算器.BMI计算器_XamlTypeInfo.XamlMember(this, "CloseButtonContent", "Object");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_15_TeachingTip_CloseButtonContent;
+                xamlMember.Setter = set_15_TeachingTip_CloseButtonContent;
+                break;
+            case "Microsoft.UI.Xaml.Controls.TeachingTip.ActionButtonCommand":
+                userType = (global::BMI计算器.BMI计算器_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TeachingTip");
+                xamlMember = new global::BMI计算器.BMI计算器_XamlTypeInfo.XamlMember(this, "ActionButtonCommand", "System.Windows.Input.ICommand");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_16_TeachingTip_ActionButtonCommand;
+                xamlMember.Setter = set_16_TeachingTip_ActionButtonCommand;
+                break;
+            case "Microsoft.UI.Xaml.Controls.TeachingTip.ActionButtonCommandParameter":
+                userType = (global::BMI计算器.BMI计算器_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TeachingTip");
+                xamlMember = new global::BMI计算器.BMI计算器_XamlTypeInfo.XamlMember(this, "ActionButtonCommandParameter", "Object");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_17_TeachingTip_ActionButtonCommandParameter;
+                xamlMember.Setter = set_17_TeachingTip_ActionButtonCommandParameter;
+                break;
+            case "Microsoft.UI.Xaml.Controls.TeachingTip.ActionButtonStyle":
+                userType = (global::BMI计算器.BMI计算器_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TeachingTip");
+                xamlMember = new global::BMI计算器.BMI计算器_XamlTypeInfo.XamlMember(this, "ActionButtonStyle", "Microsoft.UI.Xaml.Style");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_18_TeachingTip_ActionButtonStyle;
+                xamlMember.Setter = set_18_TeachingTip_ActionButtonStyle;
+                break;
+            case "Microsoft.UI.Xaml.Controls.TeachingTip.CloseButtonCommand":
+                userType = (global::BMI计算器.BMI计算器_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TeachingTip");
+                xamlMember = new global::BMI计算器.BMI计算器_XamlTypeInfo.XamlMember(this, "CloseButtonCommand", "System.Windows.Input.ICommand");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_19_TeachingTip_CloseButtonCommand;
+                xamlMember.Setter = set_19_TeachingTip_CloseButtonCommand;
+                break;
+            case "Microsoft.UI.Xaml.Controls.TeachingTip.CloseButtonCommandParameter":
+                userType = (global::BMI计算器.BMI计算器_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TeachingTip");
+                xamlMember = new global::BMI计算器.BMI计算器_XamlTypeInfo.XamlMember(this, "CloseButtonCommandParameter", "Object");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_20_TeachingTip_CloseButtonCommandParameter;
+                xamlMember.Setter = set_20_TeachingTip_CloseButtonCommandParameter;
+                break;
+            case "Microsoft.UI.Xaml.Controls.TeachingTip.CloseButtonStyle":
+                userType = (global::BMI计算器.BMI计算器_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TeachingTip");
+                xamlMember = new global::BMI计算器.BMI计算器_XamlTypeInfo.XamlMember(this, "CloseButtonStyle", "Microsoft.UI.Xaml.Style");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_21_TeachingTip_CloseButtonStyle;
+                xamlMember.Setter = set_21_TeachingTip_CloseButtonStyle;
+                break;
+            case "Microsoft.UI.Xaml.Controls.TeachingTip.HeroContent":
+                userType = (global::BMI计算器.BMI计算器_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TeachingTip");
+                xamlMember = new global::BMI计算器.BMI计算器_XamlTypeInfo.XamlMember(this, "HeroContent", "Microsoft.UI.Xaml.UIElement");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_22_TeachingTip_HeroContent;
+                xamlMember.Setter = set_22_TeachingTip_HeroContent;
+                break;
+            case "Microsoft.UI.Xaml.Controls.TeachingTip.HeroContentPlacement":
+                userType = (global::BMI计算器.BMI计算器_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TeachingTip");
+                xamlMember = new global::BMI计算器.BMI计算器_XamlTypeInfo.XamlMember(this, "HeroContentPlacement", "Microsoft.UI.Xaml.Controls.TeachingTipHeroContentPlacementMode");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_23_TeachingTip_HeroContentPlacement;
+                xamlMember.Setter = set_23_TeachingTip_HeroContentPlacement;
+                break;
+            case "Microsoft.UI.Xaml.Controls.TeachingTip.IconSource":
+                userType = (global::BMI计算器.BMI计算器_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TeachingTip");
+                xamlMember = new global::BMI计算器.BMI计算器_XamlTypeInfo.XamlMember(this, "IconSource", "Microsoft.UI.Xaml.Controls.IconSource");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_24_TeachingTip_IconSource;
+                xamlMember.Setter = set_24_TeachingTip_IconSource;
+                break;
+            case "Microsoft.UI.Xaml.Controls.TeachingTip.IsOpen":
+                userType = (global::BMI计算器.BMI计算器_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TeachingTip");
+                xamlMember = new global::BMI计算器.BMI计算器_XamlTypeInfo.XamlMember(this, "IsOpen", "Boolean");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_25_TeachingTip_IsOpen;
+                xamlMember.Setter = set_25_TeachingTip_IsOpen;
+                break;
+            case "Microsoft.UI.Xaml.Controls.TeachingTip.ShouldConstrainToRootBounds":
+                userType = (global::BMI计算器.BMI计算器_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TeachingTip");
+                xamlMember = new global::BMI计算器.BMI计算器_XamlTypeInfo.XamlMember(this, "ShouldConstrainToRootBounds", "Boolean");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_26_TeachingTip_ShouldConstrainToRootBounds;
+                xamlMember.Setter = set_26_TeachingTip_ShouldConstrainToRootBounds;
+                break;
+            case "Microsoft.UI.Xaml.Controls.TeachingTip.TailVisibility":
+                userType = (global::BMI计算器.BMI计算器_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TeachingTip");
+                xamlMember = new global::BMI计算器.BMI计算器_XamlTypeInfo.XamlMember(this, "TailVisibility", "Microsoft.UI.Xaml.Controls.TeachingTipTailVisibility");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_27_TeachingTip_TailVisibility;
+                xamlMember.Setter = set_27_TeachingTip_TailVisibility;
+                break;
+            case "Microsoft.UI.Xaml.Controls.TeachingTip.Target":
+                userType = (global::BMI计算器.BMI计算器_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TeachingTip");
+                xamlMember = new global::BMI计算器.BMI计算器_XamlTypeInfo.XamlMember(this, "Target", "Microsoft.UI.Xaml.FrameworkElement");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_28_TeachingTip_Target;
+                xamlMember.Setter = set_28_TeachingTip_Target;
+                break;
+            case "Microsoft.UI.Xaml.Controls.TeachingTip.TemplateSettings":
+                userType = (global::BMI计算器.BMI计算器_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TeachingTip");
+                xamlMember = new global::BMI计算器.BMI计算器_XamlTypeInfo.XamlMember(this, "TemplateSettings", "Microsoft.UI.Xaml.Controls.TeachingTipTemplateSettings");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_29_TeachingTip_TemplateSettings;
+                xamlMember.SetIsReadOnly();
+                break;
             case "Microsoft.UI.Xaml.Controls.NumberBox.Header":
                 userType = (global::BMI计算器.BMI计算器_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NumberBox");
                 xamlMember = new global::BMI计算器.BMI计算器_XamlTypeInfo.XamlMember(this, "Header", "Object");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_9_NumberBox_Header;
-                xamlMember.Setter = set_9_NumberBox_Header;
+                xamlMember.Getter = get_30_NumberBox_Header;
+                xamlMember.Setter = set_30_NumberBox_Header;
                 break;
             case "Microsoft.UI.Xaml.Controls.NumberBox.Value":
                 userType = (global::BMI计算器.BMI计算器_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NumberBox");
                 xamlMember = new global::BMI计算器.BMI计算器_XamlTypeInfo.XamlMember(this, "Value", "Double");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_10_NumberBox_Value;
-                xamlMember.Setter = set_10_NumberBox_Value;
+                xamlMember.Getter = get_31_NumberBox_Value;
+                xamlMember.Setter = set_31_NumberBox_Value;
                 break;
             case "Microsoft.UI.Xaml.Controls.NumberBox.SpinButtonPlacementMode":
                 userType = (global::BMI计算器.BMI计算器_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NumberBox");
                 xamlMember = new global::BMI计算器.BMI计算器_XamlTypeInfo.XamlMember(this, "SpinButtonPlacementMode", "Microsoft.UI.Xaml.Controls.NumberBoxSpinButtonPlacementMode");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_11_NumberBox_SpinButtonPlacementMode;
-                xamlMember.Setter = set_11_NumberBox_SpinButtonPlacementMode;
+                xamlMember.Getter = get_32_NumberBox_SpinButtonPlacementMode;
+                xamlMember.Setter = set_32_NumberBox_SpinButtonPlacementMode;
                 break;
             case "Microsoft.UI.Xaml.Controls.NumberBox.SmallChange":
                 userType = (global::BMI计算器.BMI计算器_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NumberBox");
                 xamlMember = new global::BMI计算器.BMI计算器_XamlTypeInfo.XamlMember(this, "SmallChange", "Double");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_12_NumberBox_SmallChange;
-                xamlMember.Setter = set_12_NumberBox_SmallChange;
+                xamlMember.Getter = get_33_NumberBox_SmallChange;
+                xamlMember.Setter = set_33_NumberBox_SmallChange;
                 break;
             case "Microsoft.UI.Xaml.Controls.NumberBox.LargeChange":
                 userType = (global::BMI计算器.BMI计算器_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NumberBox");
                 xamlMember = new global::BMI计算器.BMI计算器_XamlTypeInfo.XamlMember(this, "LargeChange", "Double");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_13_NumberBox_LargeChange;
-                xamlMember.Setter = set_13_NumberBox_LargeChange;
+                xamlMember.Getter = get_34_NumberBox_LargeChange;
+                xamlMember.Setter = set_34_NumberBox_LargeChange;
                 break;
             case "Microsoft.UI.Xaml.Controls.NumberBox.AcceptsExpression":
                 userType = (global::BMI计算器.BMI计算器_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NumberBox");
                 xamlMember = new global::BMI计算器.BMI计算器_XamlTypeInfo.XamlMember(this, "AcceptsExpression", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_14_NumberBox_AcceptsExpression;
-                xamlMember.Setter = set_14_NumberBox_AcceptsExpression;
+                xamlMember.Getter = get_35_NumberBox_AcceptsExpression;
+                xamlMember.Setter = set_35_NumberBox_AcceptsExpression;
                 break;
             case "Microsoft.UI.Xaml.Controls.NumberBox.Description":
                 userType = (global::BMI计算器.BMI计算器_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NumberBox");
                 xamlMember = new global::BMI计算器.BMI计算器_XamlTypeInfo.XamlMember(this, "Description", "Object");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_15_NumberBox_Description;
-                xamlMember.Setter = set_15_NumberBox_Description;
+                xamlMember.Getter = get_36_NumberBox_Description;
+                xamlMember.Setter = set_36_NumberBox_Description;
                 break;
             case "Microsoft.UI.Xaml.Controls.NumberBox.HeaderTemplate":
                 userType = (global::BMI计算器.BMI计算器_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NumberBox");
                 xamlMember = new global::BMI计算器.BMI计算器_XamlTypeInfo.XamlMember(this, "HeaderTemplate", "Microsoft.UI.Xaml.DataTemplate");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_16_NumberBox_HeaderTemplate;
-                xamlMember.Setter = set_16_NumberBox_HeaderTemplate;
+                xamlMember.Getter = get_37_NumberBox_HeaderTemplate;
+                xamlMember.Setter = set_37_NumberBox_HeaderTemplate;
                 break;
             case "Microsoft.UI.Xaml.Controls.NumberBox.IsWrapEnabled":
                 userType = (global::BMI计算器.BMI计算器_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NumberBox");
                 xamlMember = new global::BMI计算器.BMI计算器_XamlTypeInfo.XamlMember(this, "IsWrapEnabled", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_17_NumberBox_IsWrapEnabled;
-                xamlMember.Setter = set_17_NumberBox_IsWrapEnabled;
+                xamlMember.Getter = get_38_NumberBox_IsWrapEnabled;
+                xamlMember.Setter = set_38_NumberBox_IsWrapEnabled;
                 break;
             case "Microsoft.UI.Xaml.Controls.NumberBox.Maximum":
                 userType = (global::BMI计算器.BMI计算器_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NumberBox");
                 xamlMember = new global::BMI计算器.BMI计算器_XamlTypeInfo.XamlMember(this, "Maximum", "Double");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_18_NumberBox_Maximum;
-                xamlMember.Setter = set_18_NumberBox_Maximum;
+                xamlMember.Getter = get_39_NumberBox_Maximum;
+                xamlMember.Setter = set_39_NumberBox_Maximum;
                 break;
             case "Microsoft.UI.Xaml.Controls.NumberBox.Minimum":
                 userType = (global::BMI计算器.BMI计算器_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NumberBox");
                 xamlMember = new global::BMI计算器.BMI计算器_XamlTypeInfo.XamlMember(this, "Minimum", "Double");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_19_NumberBox_Minimum;
-                xamlMember.Setter = set_19_NumberBox_Minimum;
+                xamlMember.Getter = get_40_NumberBox_Minimum;
+                xamlMember.Setter = set_40_NumberBox_Minimum;
                 break;
             case "Microsoft.UI.Xaml.Controls.NumberBox.NumberFormatter":
                 userType = (global::BMI计算器.BMI计算器_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NumberBox");
                 xamlMember = new global::BMI计算器.BMI计算器_XamlTypeInfo.XamlMember(this, "NumberFormatter", "Windows.Globalization.NumberFormatting.INumberFormatter2");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_20_NumberBox_NumberFormatter;
-                xamlMember.Setter = set_20_NumberBox_NumberFormatter;
+                xamlMember.Getter = get_41_NumberBox_NumberFormatter;
+                xamlMember.Setter = set_41_NumberBox_NumberFormatter;
                 break;
             case "Microsoft.UI.Xaml.Controls.NumberBox.PlaceholderText":
                 userType = (global::BMI计算器.BMI计算器_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NumberBox");
                 xamlMember = new global::BMI计算器.BMI计算器_XamlTypeInfo.XamlMember(this, "PlaceholderText", "String");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_21_NumberBox_PlaceholderText;
-                xamlMember.Setter = set_21_NumberBox_PlaceholderText;
+                xamlMember.Getter = get_42_NumberBox_PlaceholderText;
+                xamlMember.Setter = set_42_NumberBox_PlaceholderText;
                 break;
             case "Microsoft.UI.Xaml.Controls.NumberBox.PreventKeyboardDisplayOnProgrammaticFocus":
                 userType = (global::BMI计算器.BMI计算器_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NumberBox");
                 xamlMember = new global::BMI计算器.BMI计算器_XamlTypeInfo.XamlMember(this, "PreventKeyboardDisplayOnProgrammaticFocus", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_22_NumberBox_PreventKeyboardDisplayOnProgrammaticFocus;
-                xamlMember.Setter = set_22_NumberBox_PreventKeyboardDisplayOnProgrammaticFocus;
+                xamlMember.Getter = get_43_NumberBox_PreventKeyboardDisplayOnProgrammaticFocus;
+                xamlMember.Setter = set_43_NumberBox_PreventKeyboardDisplayOnProgrammaticFocus;
                 break;
             case "Microsoft.UI.Xaml.Controls.NumberBox.SelectionFlyout":
                 userType = (global::BMI计算器.BMI计算器_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NumberBox");
                 xamlMember = new global::BMI计算器.BMI计算器_XamlTypeInfo.XamlMember(this, "SelectionFlyout", "Microsoft.UI.Xaml.Controls.Primitives.FlyoutBase");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_23_NumberBox_SelectionFlyout;
-                xamlMember.Setter = set_23_NumberBox_SelectionFlyout;
+                xamlMember.Getter = get_44_NumberBox_SelectionFlyout;
+                xamlMember.Setter = set_44_NumberBox_SelectionFlyout;
                 break;
             case "Microsoft.UI.Xaml.Controls.NumberBox.SelectionHighlightColor":
                 userType = (global::BMI计算器.BMI计算器_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NumberBox");
                 xamlMember = new global::BMI计算器.BMI计算器_XamlTypeInfo.XamlMember(this, "SelectionHighlightColor", "Microsoft.UI.Xaml.Media.SolidColorBrush");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_24_NumberBox_SelectionHighlightColor;
-                xamlMember.Setter = set_24_NumberBox_SelectionHighlightColor;
+                xamlMember.Getter = get_45_NumberBox_SelectionHighlightColor;
+                xamlMember.Setter = set_45_NumberBox_SelectionHighlightColor;
                 break;
             case "Microsoft.UI.Xaml.Controls.NumberBox.Text":
                 userType = (global::BMI计算器.BMI计算器_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NumberBox");
                 xamlMember = new global::BMI计算器.BMI计算器_XamlTypeInfo.XamlMember(this, "Text", "String");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_25_NumberBox_Text;
-                xamlMember.Setter = set_25_NumberBox_Text;
+                xamlMember.Getter = get_46_NumberBox_Text;
+                xamlMember.Setter = set_46_NumberBox_Text;
                 break;
             case "Microsoft.UI.Xaml.Controls.NumberBox.TextReadingOrder":
                 userType = (global::BMI计算器.BMI计算器_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NumberBox");
                 xamlMember = new global::BMI计算器.BMI计算器_XamlTypeInfo.XamlMember(this, "TextReadingOrder", "Microsoft.UI.Xaml.TextReadingOrder");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_26_NumberBox_TextReadingOrder;
-                xamlMember.Setter = set_26_NumberBox_TextReadingOrder;
+                xamlMember.Getter = get_47_NumberBox_TextReadingOrder;
+                xamlMember.Setter = set_47_NumberBox_TextReadingOrder;
                 break;
             case "Microsoft.UI.Xaml.Controls.NumberBox.ValidationMode":
                 userType = (global::BMI计算器.BMI计算器_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NumberBox");
                 xamlMember = new global::BMI计算器.BMI计算器_XamlTypeInfo.XamlMember(this, "ValidationMode", "Microsoft.UI.Xaml.Controls.NumberBoxValidationMode");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_27_NumberBox_ValidationMode;
-                xamlMember.Setter = set_27_NumberBox_ValidationMode;
-                break;
-            case "BMI计算器.Views.MainPage.ViewModel":
-                userType = (global::BMI计算器.BMI计算器_XamlTypeInfo.XamlUserType)GetXamlTypeByName("BMI计算器.Views.MainPage");
-                xamlMember = new global::BMI计算器.BMI计算器_XamlTypeInfo.XamlMember(this, "ViewModel", "BMI计算器.ViewModels.MainViewModel");
-                xamlMember.Getter = get_28_MainPage_ViewModel;
-                xamlMember.SetIsReadOnly();
+                xamlMember.Getter = get_48_NumberBox_ValidationMode;
+                xamlMember.Setter = set_48_NumberBox_ValidationMode;
                 break;
             case "BMI计算器.Views.SettingsPage.ViewModel":
                 userType = (global::BMI计算器.BMI计算器_XamlTypeInfo.XamlUserType)GetXamlTypeByName("BMI计算器.Views.SettingsPage");
                 xamlMember = new global::BMI计算器.BMI计算器_XamlTypeInfo.XamlMember(this, "ViewModel", "BMI计算器.ViewModels.SettingsViewModel");
-                xamlMember.Getter = get_29_SettingsPage_ViewModel;
+                xamlMember.Getter = get_49_SettingsPage_ViewModel;
                 xamlMember.SetIsReadOnly();
                 break;
             }

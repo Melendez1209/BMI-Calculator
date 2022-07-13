@@ -328,3 +328,8 @@ D:\Codes\BMI\Win32\BMI计算器\obj\x64\Debug\net6.0-windows10.0.19041.0\win10-x
 D:\Codes\BMI\Win32\BMI计算器\obj\x64\Debug\net6.0-windows10.0.19041.0\win10-x64\qualifiers.txt.intermediate
 D:\Codes\BMI\Win32\BMI计算器\obj\x64\Debug\net6.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
 D:\Codes\BMI\Win32\BMI计算器\obj\x64\Debug\net6.0-windows10.0.19041.0\win10-x64\ProjectArchitectures.txt
+D:\Codes\BMI\Win32\BMI计算器\bin\x64\Debug\net6.0-windows10.0.19041.0\win10-x64\Views\ResultPage.xbf
+D:\Codes\BMI\Win32\BMI计算器\obj\x64\Debug\net6.0-windows10.0.19041.0\win10-x64\Views\ResultPage.g.i.cs
+D:\Codes\BMI\Win32\BMI计算器\obj\x64\Debug\net6.0-windows10.0.19041.0\win10-x64\Views\ResultPage.g.cs
+D:\Codes\BMI\Win32\BMI计算器\obj\x64\Debug\net6.0-windows10.0.19041.0\win10-x64\Views\ResultPage.xaml
+D:\Codes\BMI\Win32\BMI计算器\obj\x64\Debug\net6.0-windows10.0.19041.0\win10-x64\Views\ResultPage.xbf

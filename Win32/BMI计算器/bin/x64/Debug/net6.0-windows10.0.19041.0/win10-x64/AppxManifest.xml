@@ -20,6 +20,7 @@
   </Dependencies>
   <Resources>
     <Resource Language="EN-US" />
+    <Resource Language="ZH-CN" />
   </Resources>
   <Applications>
     <Application Id="App" Executable="BMI计算器.exe" EntryPoint="Windows.FullTrustApplication">
