@@ -133,7 +133,7 @@ public class SettingsActivity extends AppCompatActivity implements PreferenceFra
             update.setOnPreferenceClickListener(new Preference.OnPreferenceClickListener() {
                 @Override
                 public boolean onPreferenceClick(@NonNull Preference preference) {
-                    startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/Melendez1209/BMI-Calculator-Android/releases")));
+                    startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/Melendez1209/BMI-Calculator/releases")));
                     return false;
                 }
             });
@@ -143,7 +143,7 @@ public class SettingsActivity extends AppCompatActivity implements PreferenceFra
             bug.setOnPreferenceClickListener(new Preference.OnPreferenceClickListener() {
                 @Override
                 public boolean onPreferenceClick(@NonNull Preference preference) {
-                    startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/Melendez1209/BMI-Calculator-Android/labels")));
+                    startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/Melendez1209/BMI-Calculator/labels")));
                     return false;
                 }
             });
@@ -153,7 +153,7 @@ public class SettingsActivity extends AppCompatActivity implements PreferenceFra
             feedback.setOnPreferenceClickListener(new Preference.OnPreferenceClickListener() {
                 @Override
                 public boolean onPreferenceClick(@NonNull Preference preference) {
-                    startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/Melendez1209/BMI-Calculator-Android/discussions/6")));
+                    startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/Melendez1209/BMI-Calculator/discussions/")));
                     return false;
                 }
             });

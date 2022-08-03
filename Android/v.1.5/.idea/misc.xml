@@ -75,8 +75,11 @@
         <entry key="..\:/Codes/Android/BMI2/app/src/main/res/drawable-v24/ic_baseline_text_center_24.xml" value="0.2065" />
         <entry key="..\:/Codes/Android/BMI2/app/src/main/res/drawable-v24/ic_baseline_us_24.xml" value="0.168" />
         <entry key="..\:/Codes/Android/BMI2/app/src/main/res/layout/activity_main.xml" value="0.1796875" />
+        <entry key="..\:/Codes/BMI/Android/v.1.5/app/src/main/res/layout/activity_main.xml" value="0.13900273224043716" />
+        <entry key="..\:/Codes/BMI/Android/v.1.5/app/src/main/res/layout/settings_activity.xml" value="0.13900273224043716" />
       </map>
     </option>
   </component>
   <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK" />
 </project>
