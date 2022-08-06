@@ -1,3 +1,62 @@
 <resources>
+
     <string name="app_name">BMI计算器</string>
+    <string name="calculate">计算</string>
+    <string name="go_calculate">前往计算</string>
+    <string name="go_settings">前往设置</string>
+
+    <!--Openning-->
+    <string name="click_to_con">轻击以进入</string>
+
+    <!--Main-->
+    <string name="height">身高(m)：</string>
+    <string name="weight">体重(KG)：</string>
+    <string name="enter">确定</string>
+    <string name="none">暂无数据</string>
+    <string name="your_bmi">您的BMI计算结果约为：</string>
+
+    <!-- Settings Titles -->
+    <string name="title_activity_settings">设置</string>
+    <string name="me">账号</string>
+    <string name="about">关于我们</string>
+    <string name="preference">偏好设置</string>
+
+    <!-- Me Preferences -->
+    <string name="user_name">昵称</string>
+    <string name="signature">个性签名</string>
+
+    <!-- About Preferences -->
+    <string name="update_title">检查更新</string>
+    <string name="update">前往GitHub检查更新</string>
+
+    <string name="Feedback">意见反馈</string>
+    <string name="Bug_feedback">BUG反馈</string>
+
+    <string name="go_feedback">前往GitHub开源库对我APP提出建议</string>
+    <string name="feed_BUG">前往GitHub开源库反馈BUG</string>
+
+    <!--    preference-->
+
+    <string name="auto_night_F">开启以自动切换暗黑模式</string>
+    <string name="auto_night_T">关闭以手动设置暗黑模式</string>
+    <string name="night_mode">暗黑模式</string>
+
+    <string name="my_body">我的身体</string>
+    <string name="title_activity_more">更多</string>
+    <string name="action_settings">设置</string>
+    <string name="about_bmi">更多关于BMI</string>
+    <string name="Coming_soon">敬请期待</string>
+    <string name="auto_night">自动暗黑模式</string>
+    <!--MoreActivity-->
+    <string name="normal_range">BMI正常值范围</string>
+    <string name="What_bmi">什么是BMI？</string>
+    <string name="BMI_doc">身体质量指数，也称BMI指数，是国际上常用的衡量人体胖瘦程度以及是否健康的一个标准。</string>
+    <string name="formula">BMI公式</string>
+    <string name="bmi">BMI:</string>
+    <string name="reference">BMI参考值</string>
+    <string name="Thin">偏瘦</string>
+    <string name="normal">正常</string>
+    <string name="overweight">超重</string>
+    <string name="Obesity">肥胖</string>
+    <string name="specific_formula">BMI=体重/身高^2</string>
 </resources>

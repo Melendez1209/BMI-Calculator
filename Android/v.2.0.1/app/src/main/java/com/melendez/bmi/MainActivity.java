@@ -1,4 +1,5 @@
-dpackage com.melendez.bmi;
+package com.melendez.bmi;
+
 
 import androidx.appcompat.app.AppCompatActivity;
 

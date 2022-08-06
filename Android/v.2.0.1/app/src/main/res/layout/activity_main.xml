@@ -4,15 +4,121 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white_500"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <androidx.cardview.widget.CardView
+        android:id="@+id/ShowCard"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:background="@color/white_200"
+        app:cardCornerRadius="7.5dp"
+        app:cardElevation="10dp"
+        app:cardPreventCornerOverlap="true"
+        app:cardUseCompatPadding="true"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.1">
 
+        <TextView
+            android:id="@+id/show"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/none"
+            android:textSize="25sp" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/EditCard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="@color/white_200"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="10dp"
+        app:cardPreventCornerOverlap="true"
+        app:cardUseCompatPadding="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.275">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@color/white_200">
+
+            <EditText
+                android:id="@+id/hight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/edit_card"
+                android:drawableStart="@drawable/ic_baseline_emoji_people_24"
+                android:drawablePadding="5dp"
+                android:hint="@string/height"
+                android:inputType="numberDecimal"
+                android:maxLines="1"
+                android:minHeight="45dp"
+                android:textColorHint="@color/grey_200"
+                android:textSize="20sp"
+                tools:ignore="Autofill" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="75dp"
+            android:background="@color/white_200">
+
+            <EditText
+                android:id="@+id/weight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableStart="@drawable/ic_baseline_web_asset_24"
+                android:drawablePadding="5dp"
+                android:hint="@string/weight"
+                android:inputType="numberDecimal"
+                android:maxEms="1"
+                android:minHeight="45dp"
+                android:textColorHint="@color/grey_200"
+                android:textSize="20sp"
+                tools:ignore="Autofill" />
+        </com.google.android.material.textfield.TextInputLayout>
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/more_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:drawableStart="@drawable/ic_baseline_read_more_24"
+        android:text="@string/about_bmi"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/enter"
+        app:layout_constraintTop_toBottomOf="@+id/EditCard"
+        app:layout_constraintVertical_bias="0.15" />
+
+    <Button
+        android:id="@+id/enter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:drawableLeft="@drawable/ic_baseline_enter_24"
+        android:text="@string/enter"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/more_button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/EditCard"
+        app:layout_constraintVertical_bias="0.15"
+        tools:ignore="RtlHardcoded" />
 </androidx.constraintlayout.widget.ConstraintLayout>

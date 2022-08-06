@@ -1,16 +1,12 @@
 <component name="libraryTable">
   <library name="Gradle: androidx.slidingpanelayout:slidingpanelayout:1.2.0@aar">
     <ANNOTATIONS>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/e599a97d626f6a3a8fcfea3b86425876/transformed/slidingpanelayout-1.2.0/annotations.zip!/" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/4bc13ae88b251bf1eba5c50784c5ec6f/transformed/slidingpanelayout-1.2.0/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/531810320540ee9cbb80bb1fd93cda2a/transformed/slidingpanelayout-1.2.0/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/e599a97d626f6a3a8fcfea3b86425876/transformed/slidingpanelayout-1.2.0/res" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/e599a97d626f6a3a8fcfea3b86425876/transformed/slidingpanelayout-1.2.0/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/e599a97d626f6a3a8fcfea3b86425876/transformed/slidingpanelayout-1.2.0/AndroidManifest.xml" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/4bc13ae88b251bf1eba5c50784c5ec6f/transformed/slidingpanelayout-1.2.0/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/4bc13ae88b251bf1eba5c50784c5ec6f/transformed/slidingpanelayout-1.2.0/AndroidManifest.xml" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/4bc13ae88b251bf1eba5c50784c5ec6f/transformed/slidingpanelayout-1.2.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/531810320540ee9cbb80bb1fd93cda2a/transformed/slidingpanelayout-1.2.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/531810320540ee9cbb80bb1fd93cda2a/transformed/slidingpanelayout-1.2.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/531810320540ee9cbb80bb1fd93cda2a/transformed/slidingpanelayout-1.2.0/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
