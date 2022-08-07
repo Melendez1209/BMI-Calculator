@@ -84,4 +84,8 @@ public class MainActivity extends AppCompatActivity {
         startActivity(new Intent(this, MoreActivity.class), aop.toBundle());
         Log.e(TAG, "Go_More: 跳转至更多页面");
     }
+
+    public void Go_Setting(View view) {
+        Log.e(TAG, "Go_Setting: 悬浮的设置按钮被点击");
+    }
 }
