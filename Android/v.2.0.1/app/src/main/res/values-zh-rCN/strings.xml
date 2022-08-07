@@ -13,5 +13,10 @@
     <string name="Normal">“健康”</string>
     <string name="Overweight">“超重”</string>
     <string name="Seriously_overweight">严重超重</string>
-    <string name="Extremely_overweight">\"极度超重\"</string>
+    <string name="Extremely_overweight">”极度超重“</string>
+    <string name="reference">BMI参考值</string>
+    <string name="What_bmi">什么是BMI？</string>
+    <string name="formula">BMI计算公式</string>
+    <string name="specific_formula">BMI=体重/身高^2</string>
+    <string name="BMI_doc">身体质量指数，也称BMI指数，是国际上常用的衡量人体胖瘦程度以及是否健康的一个标准。</string>
 </resources>

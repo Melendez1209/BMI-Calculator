@@ -8,7 +8,7 @@
     tools:context=".MainActivity">
 
     <androidx.cardview.widget.CardView
-        android:id="@+id/showCard"
+        android:id="@+id/ShowCard"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/white_500"
@@ -45,7 +45,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/showCard"
+        app:layout_constraintTop_toBottomOf="@+id/ShowCard"
         app:layout_constraintVertical_bias="0.075">
 
         <TextView
@@ -118,6 +118,7 @@
         android:layout_height="wrap_content"
         android:background="@drawable/button"
         android:text="@string/enter"
+        android:onClick="Get_Calculation"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/button3"
@@ -130,6 +131,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/button"
+        android:onClick="Go_More"
         android:text="@string/more"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"

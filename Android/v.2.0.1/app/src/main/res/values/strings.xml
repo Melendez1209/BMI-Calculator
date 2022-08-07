@@ -13,4 +13,9 @@
     <string name="Overweight">“Overweight”</string>
     <string name="Seriously_overweight">\"Seriously overweight\"</string>
     <string name="Extremely_overweight">\"Extremely overweight\"</string>
+    <string name="reference">BMI Reference Value</string>
+    <string name="What_bmi">What\'s the BMI?</string>
+    <string name="formula">Formula</string>
+    <string name="specific_formula">BMI = Weight / Height ^ 2</string>
+    <string name="BMI_doc">Body mass index, also known as BMI index, is a standard commonly used in the world to measure the degree of obesity and health.</string>
 </resources>
