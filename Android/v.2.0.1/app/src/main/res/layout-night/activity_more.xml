@@ -3,25 +3,25 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:background="@color/white_200"
     android:layout_height="match_parent"
+    android:background="@color/black_200"
     tools:context=".MoreActivity">
 
     <androidx.cardview.widget.CardView
         android:id="@+id/what_card"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@color/black_500"
         android:transitionName="MoreContent"
         app:cardCornerRadius="7.5dp"
-        android:background="@color/white_500"
         app:cardElevation="10dp"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:cardPreventCornerOverlap="true"
         app:cardUseCompatPadding="true"
-        app:layout_constraintVertical_bias="0.1"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.1"
         tools:ignore="MissingConstraints">
 
         <TextView
@@ -50,13 +50,13 @@
         android:id="@+id/formula_card"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@color/black_500"
         app:cardCornerRadius="7.5dp"
         app:cardElevation="10dp"
         app:cardPreventCornerOverlap="true"
         app:cardUseCompatPadding="true"
-        android:background="@color/white_500"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toTopOf="@+id/reference_card"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/what_card"
         tools:ignore="MissingConstraints">
@@ -84,6 +84,7 @@
         android:id="@+id/reference_card"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@color/black_500"
         app:cardCornerRadius="7.5dp"
         app:cardElevation="10dp"
         app:cardPreventCornerOverlap="true"
@@ -91,7 +92,6 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        android:background="@color/white_500"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.9"
         tools:ignore="MissingConstraints">
@@ -132,27 +132,27 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="0.25"
+                android:gravity="center"
                 android:maxLines="1"
                 android:minLines="1"
-                android:gravity="center"
                 android:text="@string/Normal" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:maxLines="1"
-                android:minLines="1"
                 android:layout_weight="0.25"
                 android:gravity="center"
+                android:maxLines="1"
+                android:minLines="1"
                 android:text="@string/Overweight" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:maxLines="1"
-                android:minLines="1"
                 android:layout_weight="0.25"
                 android:gravity="center"
+                android:maxLines="1"
+                android:minLines="1"
                 android:text="@string/Extremely_overweight" />
         </TableRow>
 
