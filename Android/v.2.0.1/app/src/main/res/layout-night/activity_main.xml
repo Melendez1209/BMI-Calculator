@@ -23,7 +23,7 @@
         app:layout_constraintVertical_bias="0.05">
 
         <TextView
-            android:id="@+id/show"
+            android:id="@+id/Show_Text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
