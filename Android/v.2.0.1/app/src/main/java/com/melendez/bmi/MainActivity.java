@@ -43,11 +43,16 @@ public class MainActivity extends AppCompatActivity {
         //RulerView返回值读取
         float Height = Height_Ruler.currentScale;
         float Weight = Weight_Ruler.currentScale;
+        Log.d(TAG, "Get_Calculation: 身高：" + Height + "体重；" + Weight);
+        Height = Height / 100;
+        Log.d(TAG, "Get_Calculation: 身高(m)：" + Height);
         //计算
         float bmi = Weight / (Height * Height);
+        Log.d(TAG, "Get_Calculation: 保留前的BMI：" + bmi);
         //保留两位小数
         BigDecimal bd = new BigDecimal(bmi);
         bmi = (float) bd.setScale(2, RoundingMode.HALF_UP).doubleValue();
+        Log.d(TAG, "Get_Calculation: 保留后的BMI" + bmi);
         if (bmi > 100) {
             Show_Text.setText("请输入正确的身高体重！！！");
             Log.e(TAG, "get_calculation: 身高过低/体重过大");

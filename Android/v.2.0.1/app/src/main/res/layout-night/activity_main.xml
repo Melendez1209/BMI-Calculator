@@ -103,7 +103,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="35dp"
             app:bgColor="@color/black_500"
-            app:firstScale="50"
+            app:firstScale="60"
             app:isBgRoundRect="true"
             app:largeScaleColor="@color/purple_700"
             app:maxScale="150"
