@@ -3,4 +3,7 @@
     <string name="app_name">BMI计算器</string>
     <string name="height">身高：</string>
     <string name="Weight">体重：</string>
+    <string name="enter">确定</string>
+    <string name="none">暂无数据</string>
+    <string name="more">更多关于BMI</string>
 </resources>

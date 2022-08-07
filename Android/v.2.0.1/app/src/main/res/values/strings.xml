@@ -2,4 +2,7 @@
     <string name="app_name">BMI Calculator</string>
     <string name="height">Height：</string>
     <string name="Weight">Weight：</string>
+    <string name="enter">OK</string>
+    <string name="none">None</string>
+    <string name="more">More about BMI</string>
 </resources>

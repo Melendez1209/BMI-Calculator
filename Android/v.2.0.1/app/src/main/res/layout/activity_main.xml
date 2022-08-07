@@ -8,9 +8,10 @@
     tools:context=".MainActivity">
 
     <androidx.cardview.widget.CardView
-        android:id="@+id/Height_Card"
+        android:id="@+id/showCard"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@color/white_500"
         app:cardCornerRadius="7.5dp"
         app:cardElevation="10dp"
         app:cardPreventCornerOverlap="true"
@@ -22,9 +23,35 @@
         app:layout_constraintVertical_bias="0.075">
 
         <TextView
-            android:layout_marginStart="5dp"
+            android:id="@+id/show"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/none"
+            android:textSize="20sp" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/Height_Card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="7.5dp"
+        app:cardElevation="10dp"
+        android:background="@color/white_500"
+        app:cardPreventCornerOverlap="true"
+        app:cardUseCompatPadding="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/showCard"
+        app:layout_constraintVertical_bias="0.075">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
             android:text="@string/height"
             android:textSize="25sp"
             android:textStyle="bold" />
@@ -53,6 +80,7 @@
         app:cardCornerRadius="7.5dp"
         app:cardElevation="10dp"
         app:cardPreventCornerOverlap="true"
+        android:background="@color/white_500"
         app:cardUseCompatPadding="true"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -85,10 +113,28 @@
     </androidx.cardview.widget.CardView>
 
     <Button
+        android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:text="@string/enter"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/button3"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Weight_Card" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:text="@string/more"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button"
         app:layout_constraintTop_toBottomOf="@+id/Weight_Card" />
 </androidx.constraintlayout.widget.ConstraintLayout>
