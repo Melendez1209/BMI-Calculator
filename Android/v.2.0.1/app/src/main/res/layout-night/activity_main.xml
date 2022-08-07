@@ -4,14 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white_200"
+    android:background="@color/black_200"
     tools:context=".MainActivity">
 
     <androidx.cardview.widget.CardView
         android:id="@+id/showCard"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/white_500"
+        android:background="@color/black_500"
         app:cardCornerRadius="7.5dp"
         app:cardElevation="10dp"
         app:cardPreventCornerOverlap="true"
@@ -23,7 +23,7 @@
         app:layout_constraintVertical_bias="0.05">
 
         <TextView
-            android:id="@+id/Show_Text"
+            android:id="@+id/show"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -37,9 +37,9 @@
         android:id="@+id/Height_Card"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@color/black_500"
         app:cardCornerRadius="7.5dp"
         app:cardElevation="10dp"
-        android:background="@color/white_500"
         app:cardPreventCornerOverlap="true"
         app:cardUseCompatPadding="true"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -61,7 +61,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="35dp"
-            app:bgColor="@color/white_500"
+            app:bgColor="@color/black_500"
             app:firstScale="170"
             app:isBgRoundRect="true"
             app:largeScaleColor="@color/purple_700"
@@ -69,6 +69,7 @@
             app:midScaleColor="@color/purple_500"
             app:minScale="120"
             app:scaleGap="7.5dp"
+            app:scaleNumColor="@color/white_200"
             app:smallScaleColor="@color/purple_200"
             app:unit="M" />
     </androidx.cardview.widget.CardView>
@@ -77,10 +78,10 @@
         android:id="@+id/Weight_Card"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@color/white_500"
         app:cardCornerRadius="7.5dp"
         app:cardElevation="10dp"
         app:cardPreventCornerOverlap="true"
-        android:background="@color/white_500"
         app:cardUseCompatPadding="true"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -101,7 +102,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="35dp"
-            app:bgColor="@color/white_500"
+            app:bgColor="@color/black_500"
             app:firstScale="50"
             app:isBgRoundRect="true"
             app:largeScaleColor="@color/purple_700"
@@ -109,6 +110,7 @@
             app:midScaleColor="@color/purple_500"
             app:minScale="25"
             app:scaleGap="7.5dp"
+            app:scaleNumColor="@color/white_200"
             app:smallScaleColor="@color/purple_200" />
     </androidx.cardview.widget.CardView>
 
@@ -117,16 +119,17 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/button"
+        android:onClick="Get_Calculation"
         android:text="@string/enter"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/button3"
+        app:layout_constraintEnd_toStartOf="@+id/button2"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Weight_Card" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/button"

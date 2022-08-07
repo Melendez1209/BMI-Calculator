@@ -6,4 +6,12 @@
     <string name="enter">OK</string>
     <string name="none">None</string>
     <string name="more">More about BMI</string>
+    <string name="Yours_Bmi">Your BMI calculation result is about:</string>
+    <string name="In">in</string>
+    <string name="Stage">stage.</string>
+    <string name="Thin">“Thin”</string>
+    <string name="Normal">“Normal”</string>
+    <string name="Overweight">“Overweight”</string>
+    <string name="Seriously_overweight">\"Seriously overweight\"</string>
+    <string name="Extremely_overweight">\"Extremely overweight\"</string>
 </resources>

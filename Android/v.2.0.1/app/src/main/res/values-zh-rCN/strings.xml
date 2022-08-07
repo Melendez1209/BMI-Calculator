@@ -6,4 +6,12 @@
     <string name="enter">确定</string>
     <string name="none">暂无数据</string>
     <string name="more">更多关于BMI</string>
+    <string name="Yours_Bmi">您的BMI计算结果约为：</string>
+    <string name="In">正处于</string>
+    <string name="Stage">水平</string>
+    <string name="Thin">“偏瘦”</string>
+    <string name="Normal">“健康”</string>
+    <string name="Overweight">“超重”</string>
+    <string name="Seriously_overweight">严重超重</string>
+    <string name="Extremely_overweight">\"极度超重\"</string>
 </resources>
