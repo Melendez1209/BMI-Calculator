@@ -8,7 +8,7 @@
     tools:context=".MainActivity">
 
     <androidx.cardview.widget.CardView
-        android:id="@+id/cardView"
+        android:id="@+id/Height_Card"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:cardCornerRadius="7.5dp"
@@ -47,6 +47,7 @@
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
+        android:id="@+id/Weight_Card"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:cardCornerRadius="7.5dp"
@@ -56,13 +57,13 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/cardView"
+        app:layout_constraintTop_toBottomOf="@+id/Height_Card"
         app:layout_constraintVertical_bias="0.075">
 
         <TextView
             android:layout_width="wrap_content"
-            android:layout_marginStart="5dp"
             android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
             android:text="@string/Weight"
             android:textSize="25sp"
             android:textStyle="bold" />
@@ -82,4 +83,12 @@
             app:scaleGap="7.5dp"
             app:smallScaleColor="@color/purple_200" />
     </androidx.cardview.widget.CardView>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Weight_Card" />
 </androidx.constraintlayout.widget.ConstraintLayout>
