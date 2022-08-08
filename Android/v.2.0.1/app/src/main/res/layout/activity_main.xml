@@ -113,21 +113,22 @@
     </androidx.cardview.widget.CardView>
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/Enter_Button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/button"
-        android:text="@string/enter"
         android:onClick="Get_Calculation"
+        android:text="@string/enter"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/button3"
+        app:layout_constraintEnd_toStartOf="@+id/More_Button"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Weight_Card" />
+        app:layout_constraintTop_toBottomOf="@+id/Weight_Card"
+        tools:ignore="TextContrastCheck" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/More_Button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/button"
@@ -137,7 +138,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/button"
+        app:layout_constraintStart_toEndOf="@+id/Enter_Button"
         app:layout_constraintTop_toBottomOf="@+id/Weight_Card" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
@@ -152,5 +153,5 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.95"
-        tools:ignore="ContentDescription" />
+        tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
 </androidx.constraintlayout.widget.ConstraintLayout>
