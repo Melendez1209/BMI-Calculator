@@ -19,4 +19,12 @@
     <string name="formula">BMI计算公式</string>
     <string name="specific_formula">BMI=体重/身高^2</string>
     <string name="BMI_doc">身体质量指数，也称BMI指数，是国际上常用的衡量人体胖瘦程度以及是否健康的一个标准。</string>
+    <string name="Personalization">个性化设置</string>
+    <string name="Auto_Dark">自动开启暗黑模式</string>
+    <string name="off_Auto">开启以跟随系统切换暗黑模式</string>
+    <string name="on_Auto">关闭以自行设置颜色模式</string>
+    <string name="Dark_Mode">暗黑模式</string>
+    <string name="basis">依据</string>
+    <string name="Time">时间</string>
+    <string name="System">系统</string>
 </resources>
