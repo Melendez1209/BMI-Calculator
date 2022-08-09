@@ -36,7 +36,6 @@ public class MainActivity extends AppCompatActivity {
         Weight_Ruler = findViewById(R.id.Weight_Ruler);
         Show_Text = findViewById(R.id.Show_Text);
         Show_Card = findViewById(R.id.ShowCard);
-        Fab = findViewById(R.id.Fab);
         Log.e(TAG, "onCreate: 控件查找完成");
     }
 
@@ -88,11 +87,4 @@ public class MainActivity extends AppCompatActivity {
         Log.e(TAG, "Go_More: 跳转至更多页面");
     }
 
-    public void Go_Setting(View view) {
-        Log.e(TAG, "Go_Setting: 悬浮的设置按钮被点击");
-        ViewCompat.setTransitionName(Fab, "SettingContent");
-        ActivityOptionsCompat aop = ActivityOptionsCompat.makeSceneTransitionAnimation(this, Fab, "SettingContent");
-        startActivity(new Intent(this, SettingActivity.class), aop.toBundle());
-        Log.e(TAG, "Go_More: 跳转至设置页面");
-    }
 }

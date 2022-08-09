@@ -19,12 +19,4 @@
     <string name="formula">Formula</string>
     <string name="specific_formula">BMI = Weight / Height ^ 2</string>
     <string name="BMI_doc">Body mass index, also known as BMI index, is a standard commonly used in the world to measure the degree of obesity and health.</string>
-    <string name="Personalization">Personalization</string>
-    <string name="Auto_Dark">Automatically turn on dark mode</string>
-    <string name="off_Auto">Turn on to follow the system to switch to dark mode</string>
-    <string name="on_Auto">Turn off to set the color mode yourself</string>
-    <string name="Dark_Mode">Dark mode</string>
-    <string name="basis">Basis</string>
-    <string name="Time">Time</string>
-    <string name="System">System</string>
 </resources>
