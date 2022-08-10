@@ -3,7 +3,7 @@
     <string name="height">Height：</string>
     <string name="Weight">Weight：</string>
     <string name="enter">OK</string>
-    <string name="none">None</string>
+    <string name="None">None</string>
     <string name="more">More about BMI</string>
     <string name="Yours_Bmi">Your BMI calculation result is about:</string>
     <string name="In">in</string>
@@ -18,4 +18,7 @@
     <string name="formula">Formula</string>
     <string name="specific_formula">BMI = Weight / Height ^ 2</string>
     <string name="BMI_doc">Body mass index, also known as BMI index, is a standard commonly used in the world to measure the degree of obesity and health.</string>
+    <string name="Result">Result</string>
+    <string name="Bmi">BMI</string>
+    <string name="ResultToast">Please calculate first and then view the result~</string>
 </resources>

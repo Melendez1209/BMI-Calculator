@@ -20,6 +20,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        android:onClick="Go_Result"
         app:layout_constraintVertical_bias="0.05">
 
         <TextView
@@ -28,7 +29,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:gravity="center"
-            android:text="@string/none"
+            android:text="@string/None"
             android:textSize="20sp" />
 
     </androidx.cardview.widget.CardView>

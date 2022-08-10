@@ -4,7 +4,7 @@
     <string name="height">身高：</string>
     <string name="Weight">体重：</string>
     <string name="enter">确定</string>
-    <string name="none">暂无数据</string>
+    <string name="None">暂无数据</string>
     <string name="more">更多关于BMI</string>
     <string name="Yours_Bmi">您的BMI计算结果约为：</string>
     <string name="In">正处于</string>
@@ -19,5 +19,8 @@
     <string name="formula">BMI计算公式</string>
     <string name="specific_formula">BMI=体重/身高^2</string>
     <string name="BMI_doc">身体质量指数，也称BMI指数，是国际上常用的衡量人体胖瘦程度以及是否健康的一个标准。</string>
+    <string name="Result">计算结果</string>
+    <string name="Bmi">BMI</string>
+    <string name="ResultToast">请先计算，再查看结果</string>
 
 </resources>

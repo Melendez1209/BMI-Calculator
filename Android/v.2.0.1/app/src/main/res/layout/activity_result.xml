@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white_200"
+    tools:context=".ResultActivity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white_500"
+        android:transitionName="ResultContent"
+        app:cardCornerRadius="15dp"
+        app:cardElevation="15dp"
+        app:cardPreventCornerOverlap="true"
+        app:cardUseCompatPadding="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:text="@string/Result"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="50dp"
+            android:divider="@drawable/line"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:showDividers="beginning|middle|end">
+
+            <TableRow
+                android:divider="@drawable/line"
+                android:showDividers="beginning|middle|end">
+
+                <TextView
+                    android:gravity="center"
+                    android:padding="18dp"
+                    android:text="@string/Bmi" />
+
+                <TextView
+                    android:id="@+id/TV_BMI"
+                    android:gravity="center"
+                    android:padding="18dp"
+                    android:text="@string/None" />
+            </TableRow>
+
+            <TableRow
+                android:divider="@drawable/line"
+                android:showDividers="beginning|middle|end">
+
+                <TextView
+                    android:gravity="center"
+                    android:padding="18dp"
+                    android:text="@string/Stage" />
+
+                <TextView
+                    android:id="@+id/TV_Level"
+                    android:gravity="center"
+                    android:padding="18dp"
+                    android:text="@string/None" />
+            </TableRow>
+        </TableLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="5dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/sport"
+            tools:ignore="ContentDescription" />
+
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>
