@@ -22,4 +22,8 @@
     <string name="Result">Result</string>
     <string name="Bmi">BMI</string>
     <string name="ResultToast">Please calculate first and then view the result</string>
+    <string name="Advice_Thin">Since your BMI is too thin, it is recommended that you read the following link:</string>
+    <string name="Advice_Normal">From the BMI, your body is very healthy, continue to maintain</string>
+    <string name="Advice_OverWeight1">In view of your heavy BMI, we suggest you read the following link:</string>
+    <string name="Advice_OverWeight2">Oh, my God, your BMI is too heavy. Losing weight must be put on the agenda. The following link may help you</string>
 </resources>

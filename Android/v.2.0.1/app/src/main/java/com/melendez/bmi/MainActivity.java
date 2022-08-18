@@ -77,7 +77,7 @@ public class MainActivity extends AppCompatActivity {
                 level = getString(R.string.Extremely_overweight);
             }
             //在前端输出
-            Show_Text.setText(getString(R.string.Yours_Bmi) + bmi + getString(R.string.In) + level + getString(R.string.Stage));
+            Show_Text.setText(getString(R.string.Yours_Bmi) + bmi + "\n" + getString(R.string.In) + level + getString(R.string.Stage));
         }
     }
 

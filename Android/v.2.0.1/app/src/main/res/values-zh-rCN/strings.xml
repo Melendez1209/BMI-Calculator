@@ -22,5 +22,9 @@
     <string name="Result">计算结果</string>
     <string name="Bmi">BMI</string>
     <string name="ResultToast">请先计算，再查看结果</string>
+    <string name="Advice_Thin">鉴于您的BMI过瘦，推荐您阅读以下链接：</string>
+    <string name="Advice_Normal">从BMI看来你的身体很健康，继续保持</string>
+    <string name="Advice_OverWeight1">鉴于你的BMI过重，建议你阅读以下链接：</string>
+    <string name="Advice_OverWeight2">哦，天哪，你的BMI太重了，减肥必须提上日程，以下链接可能会帮到你</string>
 
 </resources>
