@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BMI计算器</string>
+    <string name="height">身高：</string>
+    <string name="Weight">体重：</string>
+    <string name="enter">确定</string>
+    <string name="None">暂无数据</string>
+    <string name="more">更多关于BMI</string>
+    <string name="Yours_Bmi">您的BMI计算结果约为：</string>
+    <string name="In">正处于</string>
+    <string name="Stage">水平</string>
+    <string name="Thin">“偏瘦”</string>
+    <string name="Normal">“健康”</string>
+    <string name="Overweight">“超重”</string>
+    <string name="Seriously_overweight">严重超重</string>
+    <string name="Extremely_overweight">”极度超重“</string>
+    <string name="reference">BMI参考值</string>
+    <string name="What_bmi">什么是BMI？</string>
+    <string name="formula">BMI计算公式</string>
+    <string name="specific_formula">BMI=体重/身高^2</string>
+    <string name="BMI_doc">身体质量指数，也称BMI指数，是国际上常用的衡量人体胖瘦程度以及是否健康的一个标准。</string>
+    <string name="Result">计算结果</string>
+    <string name="Bmi">BMI</string>
+    <string name="ResultToast">请先计算，再查看结果</string>
+    <string name="Advice_Thin">鉴于您的BMI过瘦，推荐您阅读以下链接：</string>
+    <string name="Advice_Normal">从BMI看来你的身体很健康，继续保持</string>
+    <string name="Advice_OverWeight1">鉴于你的BMI过重，建议你阅读以下链接：</string>
+    <string name="Advice_OverWeight2">哦，天哪，你的BMI太重了，减肥必须提上日程，以下链接可能会帮到你</string>
+
+</resources>

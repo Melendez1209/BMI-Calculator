@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">BMI Calculator</string>
+    <string name="height">Height：</string>
+    <string name="Weight">Weight：</string>
+    <string name="enter">OK</string>
+    <string name="None">None</string>
+    <string name="more">More about BMI</string>
+    <string name="Yours_Bmi">Your BMI calculation result is about:</string>
+    <string name="In">in</string>
+    <string name="Stage">stage.</string>
+    <string name="Thin">“Thin”</string>
+    <string name="Normal">“Normal”</string>
+    <string name="Overweight">“Overweight”</string>
+    <string name="Seriously_overweight">\"Seriously overweight\"</string>
+    <string name="Extremely_overweight">\"Extremely overweight\"</string>
+    <string name="reference">BMI Reference Value</string>
+    <string name="What_bmi">What\'s the BMI?</string>
+    <string name="formula">Formula</string>
+    <string name="specific_formula">BMI = Weight / Height ^ 2</string>
+    <string name="BMI_doc">Body mass index, also known as BMI index, is a standard commonly used in the world to measure the degree of obesity and health.</string>
+    <string name="Result">Result</string>
+    <string name="Bmi">BMI</string>
+    <string name="ResultToast">Please calculate first and then view the result~</string>
+    <string name="Advice_Thin">Since your BMI is too thin, it is recommended that you read the following link:</string>
+    <string name="Advice_Normal">From the BMI, your body is very healthy, continue to maintain</string>
+    <string name="Advice_OverWeight1">In view of your heavy BMI, we suggest you read the following link:</string>
+    <string name="Advice_OverWeight2">Oh, my God, your BMI is too heavy. Losing weight must be put on the agenda. The following link may help you</string>
+</resources>

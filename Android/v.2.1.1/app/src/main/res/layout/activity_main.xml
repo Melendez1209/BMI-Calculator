@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white_200"
+    tools:context=".MainActivity">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/ShowCard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white_500"
+        app:cardCornerRadius="7.5dp"
+        app:cardElevation="10dp"
+        app:cardPreventCornerOverlap="true"
+        app:cardUseCompatPadding="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:onClick="Go_Result"
+        app:layout_constraintVertical_bias="0.05">
+
+        <TextView
+            android:id="@+id/Show_Text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/None"
+            android:textSize="20sp" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/Height_Card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="7.5dp"
+        app:cardElevation="10dp"
+        android:background="@color/white_500"
+        app:cardPreventCornerOverlap="true"
+        app:cardUseCompatPadding="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ShowCard"
+        app:layout_constraintVertical_bias="0.075">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:text="@string/height"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <com.lsp.RulerView
+            android:id="@+id/Height_Ruler"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            app:bgColor="@color/white_500"
+            app:firstScale="170"
+            app:isBgRoundRect="true"
+            app:largeScaleColor="@color/purple_700"
+            app:maxScale="300"
+            app:midScaleColor="@color/purple_500"
+            app:minScale="120"
+            app:scaleGap="7.5dp"
+            app:smallScaleColor="@color/purple_200"
+            app:unit="M" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/Weight_Card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="7.5dp"
+        app:cardElevation="10dp"
+        app:cardPreventCornerOverlap="true"
+        android:background="@color/white_500"
+        app:cardUseCompatPadding="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Height_Card"
+        app:layout_constraintVertical_bias="0.075">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:text="@string/Weight"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <com.lsp.RulerView
+            android:id="@+id/Weight_Ruler"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            app:bgColor="@color/white_500"
+            app:firstScale="60"
+            app:isBgRoundRect="true"
+            app:largeScaleColor="@color/purple_700"
+            app:maxScale="150"
+            app:midScaleColor="@color/purple_500"
+            app:minScale="25"
+            app:scaleGap="7.5dp"
+            app:smallScaleColor="@color/purple_200" />
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/Enter_Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:onClick="Get_Calculation"
+        android:text="@string/enter"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/More_Button"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Weight_Card"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/More_Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:onClick="Go_More"
+        android:text="@string/more"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/Enter_Button"
+        app:layout_constraintTop_toBottomOf="@+id/Weight_Card" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
