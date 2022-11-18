@@ -6,14 +6,12 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;
 import androidx.core.app.ActivityOptionsCompat;
 import androidx.core.view.ViewCompat;
 
-import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.lsp.RulerView;
 
 import java.math.BigDecimal;
@@ -26,9 +24,6 @@ public class MainActivity extends AppCompatActivity {
     private RulerView Weight_Ruler;
     private TextView Show_Text;
     private CardView Show_Card;
-    private FloatingActionButton Fab;
-    private float bmi;
-    private String level;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -52,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
         Height = Height / 100;
         Log.d(TAG, "Get_Calculation: 身高(m)：" + Height);
         //计算
-        bmi = Weight / (Height * Height);
+        float bmi = Weight / (Height * Height);
         Log.d(TAG, "Get_Calculation: 保留前的BMI：" + bmi);
         //保留两位小数
         BigDecimal bd = new BigDecimal(bmi);
@@ -65,6 +60,7 @@ public class MainActivity extends AppCompatActivity {
         //身体水平判断
         else {
             //水平划分
+            String level;
             if (bmi < 19) {
                 level = getString(R.string.Thin);
             } else if (19 <= bmi && bmi < 25) {
@@ -87,20 +83,5 @@ public class MainActivity extends AppCompatActivity {
         ActivityOptionsCompat aop = ActivityOptionsCompat.makeSceneTransitionAnimation(this, Show_Card, "MoreContent");
         startActivity(new Intent(this, MoreActivity.class), aop.toBundle());
         Log.e(TAG, "Go_More: 跳转至更多页面");
-    }
-
-    public void Go_Result(View view) {
-        if (Show_Text.getText() == getString(R.string.None)) {
-            Toast.makeText(this, getString(R.string.ResultToast), Toast.LENGTH_LONG).show();
-            Log.e(TAG, "Go_Result: 没有计算");
-        } else {
-            ViewCompat.setTransitionName(Show_Card, "ResultContent");
-            ActivityOptionsCompat aop = ActivityOptionsCompat.makeSceneTransitionAnimation(this, Show_Card, "ResultContent");
-            Intent intent = new Intent(this, ResultActivity.class);
-            intent.putExtra("Bmi", bmi);
-            intent.putExtra("Level", level);
-            startActivity(intent, aop.toBundle());
-            Log.e(TAG, "Go_More: 跳转至结果页面");
-        }
     }
 }

@@ -20,7 +20,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:onClick="Go_Result"
         app:layout_constraintVertical_bias="0.05">
 
         <TextView
@@ -38,9 +37,9 @@
         android:id="@+id/Height_Card"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@color/white_500"
         app:cardCornerRadius="7.5dp"
         app:cardElevation="10dp"
-        android:background="@color/white_500"
         app:cardPreventCornerOverlap="true"
         app:cardUseCompatPadding="true"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -78,10 +77,10 @@
         android:id="@+id/Weight_Card"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@color/white_500"
         app:cardCornerRadius="7.5dp"
         app:cardElevation="10dp"
         app:cardPreventCornerOverlap="true"
-        android:background="@color/white_500"
         app:cardUseCompatPadding="true"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
